@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: code
+# contributor: rho
+# key: code
+#    #+BEGIN_SRC sh :dir search :session external
+# --
+#+NAME: $1
+#+HEADER: :var $2
+#+BEGIN_SRC ${3:lang} :results ${4:$$(yas-choose-value '("value" "output" "replace" "silent"))} :session ${4:$$(yas-choose-value '("external" ""))}
+  $0
+#+END_SRC

@@ -1,0 +1,23 @@
+
+;; ----- smex-history -----
+(
+ eww
+ list-packages
+ package-menu-mode
+ el-get-install
+ el-get-cd
+ org-attach
+ erc
+)
+
+;; ----- smex-data -----
+(
+ (erc . 1)
+ (org-attach . 2)
+ (list-packages . 3)
+ (el-get-cd . 1)
+ (el-get-install . 2)
+ (twit . 3)
+ (package-menu-mode . 1)
+ (eww . 1)
+)
