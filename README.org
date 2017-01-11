@@ -1,9 +1,4 @@
 #+TITLE: dot-emacs
-#+DATE: Sunday, Jan 17 2016
-#+DESCRIPTION: my emacs config!
-#+AUTHOR: rho
-#+OPTIONS: num:t
-#+STARTUP: overview
 
 *DISCLAIMER:* :warning: AUTHOR will _not_ be _responsible_ for
 the :fire: _harm_ :fire: cause by using this config :bangbang:
@@ -17,7 +12,7 @@ it doesn't work out of the box.
 
 * Intro
 
-  I've been using /emacs/ since of *2012*, and slowly config is grown
+  The original author of this config is [[https://github.com/rhoit/][rhoit dai]]. Below contains his README(his statements).I've been using /emacs/ since of *2012*, and slowly config is grown
   from few lines to a full repository of /tweaks/, /hacks/ and few of
   my own /scripts/. This is the action I took to make config more
   verbose and friendly for everyone, [[https://github.com/rhoit/dot-emacs/blob/master/init.el][init.el]] been converted to org
