@@ -2,23 +2,41 @@
 
 ;; ----- ido-last-directory-list -----
 (
- ("/Users/manishmarahatta/" . ".emacs.d/")
+ ("/Users/manishmarahatta/Downloads/" . "Spring2017ClassSchedule/")
+ ("/Users/manishmarahatta/.emacs.d/" . "plug-ins/")
+ ("/Users/manishmarahatta/" . "Downloads/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
+ "/Users/manishmarahatta/.emacs.d/plug-ins/icons/"
+ "/Users/manishmarahatta/.emacs.d/plug-ins/"
+ "/Users/manishmarahatta/Downloads/Spring2017ClassSchedule/"
  "/Users/manishmarahatta/.emacs.d/"
+ "/Users/manishmarahatta/.emacs.d/config/"
 )
 
 ;; ----- ido-work-file-list -----
 (
+ "yas.xpm"
+ "IT Time Table - Yr2 LMU.pdf"
+ "init.el"
+ "ui.cfg.el"
  "README.org"
  "README.el"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/manishmarahatta/.emacs.d/" (22696 5668 0 0) "url/" "snippets/" "smex-items" "scripts/" "recentf" "README.org.save" "README.org" "README.el" "network-security.data" "Makefile" "init.el" "ido.last" "emojis/" "elpa/" "el-get/" "configure" "config/" "auto-save-list/" "ac-comphist.dat" "00testing/" ".git/" ".DS_Store" "../" "./")
+ ("/Users/manishmarahatta/.emacs.d/plug-ins/" (22696 7796 0 0) "yas.xpm" "../" "./")
+
+ ("/Users/manishmarahatta/.emacs.d/" (22696 7796 0 0) "url/" "snippets/" "smex-items" "scripts/" "recentf" "README.org.save" "README.org" "README.el" "plug-ins/" "network-security.data" "Makefile" "init.el" "ido.last" "emojis/" "elpa/" "el-get/" "configure" "config/" "auto-save-list/" "ac-comphist.dat" "00testing/" ".git/" ".DS_Store" "#init.el#" "../" "./")
+
+ ("/Users/manishmarahatta/Downloads/Spring2017ClassSchedule/" (22694 23902 0 0) "Read Me.pdf" "IT Time Table - Yr3 LMU.pdf" "IT Time Table - Yr2 LMU.pdf" "IT Time Table - Yr1 LMU.pdf" "Groups - IT Yr3 LMU.pdf" "Groups - IT Yr2 LMU.pdf" "Groups - IT Yr1 LMU.pdf" "Groups - BBA Yr3 LMU.pdf" "Groups - BBA Yr2 LMU.pdf" "Groups - BBA Yr1 LMU.pdf" "BBA Time Table - Yr3 LMU.pdf" "BBA Time Table - Yr2 LMU.pdf" "BBA Time Table - Yr1 LMU.pdf" "../" "./")
+
+ ("/Users/manishmarahatta/Downloads/" (22696 5748 0 0) "Spring2017ClassSchedule/" "Screenshot_2016-09-28_20-27-55.png" "screenshot01.png" "project3.pdf" "onlisp.pdf" "Learn Python The Hard Way, 3rd Edition .pdf" "IMG_20160801_191354.jpg" "emacs.pdf" "Emacs-Beginner-HOWTO.pdf" "emacs-2.pdf" "android-studio-ide-145.3537739-mac.dmg" "AI_Projects.pdf" "01.png" ".localized" ".DS_Store" "../" "./")
+
+ ("/Users/manishmarahatta/.emacs.d/config/" (22696 2229 0 0) "ui.cfg.el" "tabbar.cfg.el" "org-mode.cfg.el" "html.cfg.el" "compile.cfg.el" "babel.cfg.el" "../" "./")
 
  ("/Users/manishmarahatta/" (22696 2866 0 0) "universe/" "tinkering_python/" "README.md" "PycharmProjects/" "Public/" "Pictures/" "Music/" "Movies/" "lightfm_data/" "Library/" "goinstall.sh" "go/" "Downloads/" "dot-emacs/" "Documents/" "Desktop/" "awesome-emacs/" "AndroidStudioProjects/" ".weechat/" ".viminfo" ".Trash/" ".ssh/" ".sqlite_history" ".python_history" ".oracle_jre_usage/" ".matplotlib/" ".gradle/" ".gitconfig" ".git/" ".emulator_console_auth_token" ".emacs.d/" ".DS_Store" ".CFUserTextEncoding" ".bash_sessions/" ".bash_profile.pysave" ".bash_profile" ".bash_history" ".android/" "#.bash_profile#" "../" "./")
 )

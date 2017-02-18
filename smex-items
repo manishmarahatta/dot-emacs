@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
- term
- el-get-remove
- el-get-install
- eww
- list-packages
- package-menu-mode
- el-get-cd
+ quit-window
+ doc-view-mode
+ package-install
+ doctex-mode
+ customize-face
+ eval-buffer
+ describe-char
 )
 
 ;; ----- smex-data -----
@@ -22,4 +22,11 @@
  (eww . 1)
  (el-get-remove . 1)
  (term . 1)
+ (customize-face . 3)
+ (describe-char . 2)
+ (eval-buffer . 1)
+ (doctex-mode . 1)
+ (package-install . 1)
+ (doc-view-mode . 2)
+ (quit-window . 1)
 )
