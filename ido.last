@@ -1,0 +1,27 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/manishmarahatta/" . ".emacs.d/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/manishmarahatta/.emacs.d/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "README.org"
+ "README.el"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/manishmarahatta/.emacs.d/" (22696 4015 0 0) "url/" "snippets/" "smex-items" "scripts/" "recentf" "README.org.save" "README.org" "README.el" "network-security.data" "Makefile" "init.el" "ido.last" "emojis/" "elpa/" "el-get/" "configure" "config/" "auto-save-list/" "ac-comphist.dat" "00testing/" ".git/" ".DS_Store" "../" "./")
+
+ ("/Users/manishmarahatta/" (22696 2866 0 0) "universe/" "tinkering_python/" "README.md" "PycharmProjects/" "Public/" "Pictures/" "Music/" "Movies/" "lightfm_data/" "Library/" "goinstall.sh" "go/" "Downloads/" "dot-emacs/" "Documents/" "Desktop/" "awesome-emacs/" "AndroidStudioProjects/" ".weechat/" ".viminfo" ".Trash/" ".ssh/" ".sqlite_history" ".python_history" ".oracle_jre_usage/" ".matplotlib/" ".gradle/" ".gitconfig" ".git/" ".emulator_console_auth_token" ".emacs.d/" ".DS_Store" ".CFUserTextEncoding" ".bash_sessions/" ".bash_profile.pysave" ".bash_profile" ".bash_history" ".android/" "#.bash_profile#" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

@@ -1,30 +1,16 @@
 #+TITLE: dot-emacs
 
-*DISCLAIMER:* :warning: AUTHOR will _not_ be _responsible_ for
-the :fire: _harm_ :fire: cause by using this config :bangbang:
-
-Its unlikely to harm,
-
-but :dizzy_face: *MAKE SURE YOU HAVE THE BACKUP* :monkey:
-
-*NOTE*: Some section are in testing need manually intervention,
-it doesn't work out of the box.
-
 * Intro
 
-  The original author of this config is [[https://github.com/rhoit/][rhoit dai]]. Below contains his README(his statements).I've been using /emacs/ since of *2012*, and slowly config is grown
-  from few lines to a full repository of /tweaks/, /hacks/ and few of
-  my own /scripts/. This is the action I took to make config more
-  verbose and friendly for everyone, [[https://github.com/rhoit/dot-emacs/blob/master/init.el][init.el]] been converted to org
-  mode.
+  Special Thanks To Rohit Man Amatya Brother for this config.
+  NOTE: init.el has been converted to README.org
 
   #+ATTR_HTML: title="screenshot"
-  [[https://www.google.com][file:https://raw.githubusercontent.com/rhoit/dot-emacs/dump/screenshot/screenshot02.png]]
-
+  [[https://www.google.com][file:https://cloud.githubusercontent.com/assets/13973154/23092161/0e53ea06-f5ed-11e6-990f-c8e54c296258.png]]
 ** Get it
 
    #+BEGIN_EXAMPLE
-     $ git clone https://github.com/rhoit/dot-emacs /path/to/dot-emacs
+     $ git clone https://github.com/manishmarahatta/dot-emacs /path/to/dot-emacs
    #+END_EXAMPLE
 
 ** How to build
@@ -42,7 +28,7 @@ it doesn't work out of the box.
 
    #+BEGIN_EXAMPLE
      dot-emacs
-     ├── el-get                 # pacman
+     ├── el-get                 # package manager for emacs
      ├── config                 # config subsection
      │   ├── compile.cfg.el
      :   :
@@ -123,7 +109,7 @@ it doesn't work out of the box.
 
    this is the same of current packages which are installed.
 
-   PS: list might be incomplete
+   PS: it's osx compatibile "chill"
 
    #+begin_src emacs-lisp
      (setq dim-packages
@@ -132,11 +118,10 @@ it doesn't work out of the box.
                '(ample-regexps auto-complete cl-lib ctable dash
                deferred ein epc epl exec-path-from-shell f flymake
                flymake-cursor fuzzy git-modes goto-chg jedi json-mode
-               json-reformat json-snatcher load-relative loc-changes
-               magit moz-repl multiple-cursors outorg outshine package
+               json-reformat json-snatcher magit moz-repl multiple-cursors
                pkg-info popup popup-kill-ring pos-tip pylookup python
                python-environment recentf-ext request s undo-tree
-               web-mode websocket yasnippet)
+               web-mode websocket yasnippet outorg outshine package)
              (mapcar 'el-get-as-symbol (mapcar 'el-get-source-name
              el-get-sources))))
      (el-get 'sync dim-packages)

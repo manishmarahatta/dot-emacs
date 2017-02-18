@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ term
+ el-get-remove
+ el-get-install
  eww
  list-packages
  package-menu-mode
- el-get-install
  el-get-cd
- org-attach
- erc
 )
 
 ;; ----- smex-data -----
@@ -16,8 +16,10 @@
  (org-attach . 2)
  (list-packages . 3)
  (el-get-cd . 1)
- (el-get-install . 2)
+ (el-get-install . 3)
  (twit . 3)
  (package-menu-mode . 1)
  (eww . 1)
+ (el-get-remove . 1)
+ (term . 1)
 )
