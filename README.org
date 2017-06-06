@@ -169,7 +169,7 @@
      (el-get 'sync dim-packages)
    #+end_src
 
-* [[https://github.com/rhoit/dot-emacs/blob/master/config/ui.cfg.el][UI/UX]]
+* [[https://github.com/manishmarahatta/dot-emacs/blob/master/config/ui.cfg.el][UI/UX]]
 
   Basic configuration, like window size keybindings
 
@@ -211,7 +211,7 @@
 
 ** highlight current line
 
-   Uses =shade-color= defined in [[https://github.com/rhoit/dot-emacs/blob/master/config/ui.cfg.el][config/ui.cfg.el]] to compute new
+   Uses =shade-color= defined in [[https://github.com/manishmarahatta/dot-emacs/blob/master/config/ui.cfg.el][config/ui.cfg.el]] to compute new
    intensity of given color and alpha value.
 
    #+begin_src emacs-lisp
@@ -242,7 +242,7 @@
        (global-set-key (kbd "C-S-z") 'redo))
    #+end_src
 
-** [[https://github.com/rhoit/dot-emacs/blob/master/config/modeline.cfg.el][modeline]]
+** [[https://github.com/manishmarahatta/dot-emacs/blob/master/config/modeline.cfg.el][modeline]]
 
    #+ATTR_HTML: title="modline-screenshot"
    [[https://github.com/ryuslash/mode-icons][file:https://cloud.githubusercontent.com/assets/13973154/23092243/92afe916-f5ee-11e6-8406-1e21420f0a63.png]]
@@ -262,7 +262,7 @@
      (el-get 'sync 'powerline)
      (require 'powerline)
 
-     ;;; https://github.com/rhoit/powerline-iconic-theme
+     ;;; https://github.com/manishmarahatta/powerline-iconic-theme
      ;; (add-to-list 'load-path "~/.emacs.d/modules/powerline-iconic-theme/")
      (load-file "~/.emacs.d/modules/powerline-iconic-theme/iconic.el")
      (powerline-iconic-theme)
@@ -276,7 +276,7 @@
      ;; (spaceline-spacemacs-theme)
    #+end_src
 
-** [[https://github.com/rhoit/dot-emacs/blob/master/config/tabbar.cfg.el][tabbar]]
+** [[https://github.com/manishmarahatta/dot-emacs/blob/master/config/tabbar.cfg.el][tabbar]]
 
    #+ATTR_HTML: title="tabbar-screenshot"
    [[https://github.com/mattfidler/tabbar-ruler.el][file:https://cloud.githubusercontent.com/assets/13973154/23092256/d412bf28-f5ee-11e6-9002-212ab2b55ba2.png]]
@@ -505,7 +505,7 @@
      (setq-default tab-width 4)
    #+end_src
 
-** [[https://github.com/rhoit/dot-emacs/blob/master/config/compile.cfg.el][complie]]
+** [[https://github.com/manishmarahatta/dot-emacs/blob/master/config/compile.cfg.el][complie]]
 
    #+begin_src emacs-lisp
      (load "~/.emacs.d/config/compile.cfg.el")
@@ -622,7 +622,7 @@
       ;; (file-name-nondirectory buffer-file-name)))))
    #+end_src
 
-*** [[https://github.com/rhoit/py-exec][py execution]]
+*** [[https://github.com/manishmarahatta/py-exec][py execution]]
 
     ess-style executing /python/ script.
 
@@ -764,7 +764,7 @@
        (add-hook 'org-mode-hook 'yas-minor-mode-on))
    #+end_src
 
-* [[https://github.com/rhoit/dot-emacs/blob/master/scripts/wordplay.el][word play]]
+* [[https://github.com/manishmarahatta/dot-emacs/blob/master/scripts/wordplay.el][word play]]
 
   Word play consist of collection of nify scripts.
 
