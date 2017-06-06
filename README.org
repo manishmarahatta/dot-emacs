@@ -27,19 +27,61 @@
 ** Structure
 
    #+BEGIN_EXAMPLE
-     dot-emacs
-     ├── el-get                 # package manager for emacs
-     ├── config                 # config subsection
-     │   ├── compile.cfg.el
-     :   :
-     │   └── tabbar.cfg.el
-     ├── ...
-     :
-     ├── modules              # testing stuffs
-     └── snippets               # yasnippet stuffs
-         ├── fundamental-mode
-         :
-         └── python-mode
+   .
+├── auto-save-list
+├── config
+├── el-get
+│   ├── cl-lib
+│   ├── goto-chg
+│   ├── logo
+│   ├── methods
+│   ├── moz-repl
+│   ├── package
+│   ├── popup-kill-ring
+│   ├── pos-tip
+│   ├── python
+│   ├── recentf-ext
+│   ├── recipes
+│   └── test
+│       ├── issues
+│       └── pkgs
+├── elpa
+│   ├── archives
+│   │   ├── gnu
+│   │   ├── marmalade
+│   │   └── melpa
+│   ├── gnupg
+│   ├── twittering-mode-20160921.1038
+│   └── wget-1.94
+├── modules
+│   ├── auto-dim-other-buffers.el
+│   ├── emacs-ac-emoji
+│   │   ├── author
+│   │   └── image
+│   ├── emojis
+│   │   └── emojione-v2.2.6-22
+│   ├── mode-icons
+│   │   ├── icons
+│   │   └── scripts
+│   ├── powerline
+│   ├── powerline-iconic-theme
+│   ├── py-exec
+│   ├── tabbar-ruler
+│   │   ├── el-get
+│   │   └── melpa
+│   └── window-numbering
+├── plug-ins
+│   └── icons
+├── scripts
+├── snippets
+│   ├── fundamental-mode
+│   ├── html-mode
+│   ├── org-mode
+│   └── python-mode
+└── url
+
+51 directories
+
    #+END_EXAMPLE
 
 * emacs core
