@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: code
-# contributor: rho
+# contributor: r68bux
 # key: code
 #    #+BEGIN_SRC sh :dir search :session external
 # --

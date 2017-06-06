@@ -78,7 +78,7 @@
 
 ;;; mode-icons directly from repo, for experiments
 ;;; https://github.com/ryuslash/mode-icons
-(load-file "~/.emacs.d/00testing/mode-icons/mode-icons.el")
+(load-file "~/.emacs.d/modules/mode-icons/mode-icons.el")
 ;;; DID YOU GOT STUCK ABOVE? COMMENT LINE ABOVE & UNCOMMENT NEXT 2 LINES
 ;; (el-get 'sync 'mode-icons)
 ;; (require 'mode-icons)
@@ -91,15 +91,15 @@
 (require 'powerline)
 
 ;;; https://github.com/rhoit/powerline-iconic-theme
-;; (add-to-list 'load-path "~/.emacs.d/00testing/powerline-iconic-theme/")
-(load-file "~/.emacs.d/00testing/powerline-iconic-theme/iconic.el")
+;; (add-to-list 'load-path "~/.emacs.d/modules/powerline-iconic-theme/")
+(load-file "~/.emacs.d/modules/powerline-iconic-theme/iconic.el")
 (powerline-iconic-theme)
 ;;; DID YOU GOT STUCK ABOVE? COMMENT 2 LINES ABOVE & UNCOMMENT NEXT LINE
 ;; (powerline-default-theme)
 
 ;;; modeline from spacmacs
 ;;; https://github.com/TheBB/spaceline
-;; (add-to-list 'load-path  "~/.emacs.d/00testing/spaceline/")
+;; (add-to-list 'load-path  "~/.emacs.d/modules/spaceline/")
 ;; (require 'spaceline-config)
 ;; (spaceline-spacemacs-theme)
 
@@ -110,7 +110,7 @@
 
 ;;; tabbar-ruler directly from repo, for experiments
 ;;; https://github.com/mattfidler/tabbar-ruler.el
-(load-file "~/.emacs.d/00testing/tabbar-ruler/tabbar-ruler.el")
+(load-file "~/.emacs.d/modules/tabbar-ruler/tabbar-ruler.el")
 ;;; DID YOU GOT STUCK ABOVE? COMMENT LINE ABOVE & UNCOMMENT NEXT 2
 ;; (el-get 'sync 'tabbar-ruler)
 ;; (require 'tabbar-ruler)
@@ -285,9 +285,9 @@
 ;; (interactive (list (gud-query-cmdline pdb-path
 ;; (file-name-nondirectory buffer-file-name)))))
 
-;; (add-to-list 'load-path "~/.emacs.d/00testing/py-exec/")
+;; (add-to-list 'load-path "~/.emacs.d/modules/py-exec/")
 ;; (require 'py-exec)
-(load "~/.emacs.d/00testing/py-exec/py-exec.el")
+(load "~/.emacs.d/modules/py-exec/py-exec.el")
 
 (setq lua-indent-level 4)
 
@@ -353,13 +353,13 @@
 
 (global-set-key [(shift insert)] 'repetitive-yanking)
 
-(add-to-list 'load-path "~/.emacs.d/00testing/")
+(add-to-list 'load-path "~/.emacs.d/modules/")
 
-;; (add-to-list 'load-path "~/.emacs.d/00testing/emacs-browser-refresh/")
+;; (add-to-list 'load-path "~/.emacs.d/modules/emacs-browser-refresh/")
 ;; (require 'browser-refresh)
 ;; (setq browser-refresh-default-browser 'firefox)
 
-(add-to-list 'load-path "~/.emacs.d/00testing/emacs-ac-emoji/")
+(add-to-list 'load-path "~/.emacs.d/modules/emacs-ac-emoji/")
 (require 'ac-emoji)
 
 (add-hook 'org-mode-hook 'auto-complete-mode)
@@ -371,11 +371,11 @@
    t 'symbol
      (font-spec :family "Symbola") nil 'prepend)
 
-(add-to-list 'load-path "~/.emacs.d/00testing/window-numbering/")
+(add-to-list 'load-path "~/.emacs.d/modules/window-numbering/")
 (require 'window-numbering)
 (window-numbering-mode)
 
-(add-to-list 'load-path "~/.emacs.d/00testing/indent/antonj/")
+(add-to-list 'load-path "~/.emacs.d/modules/indent/antonj/")
 ;;; DID YOU GOT STUCK ABOVE? COMMENT LINE ABOVE & UNCOMMENT NEXT LINE
 ;; (el-get 'sync 'highlight-indentation)
 (require 'highlight-indentation)
@@ -394,13 +394,13 @@
 (add-hook 'python-mode-hook 'hideshowvis-enable)
 
 (when window-system
-  (add-to-list 'load-path "~/.emacs.d/00testing/auto-dim-other-buffers.el")
+  (add-to-list 'load-path "~/.emacs.d/modules/auto-dim-other-buffers.el")
   (require 'auto-dim-other-buffers)
   (add-hook 'after-init-hook (lambda ()
                                (when (fboundp 'auto-dim-other-buffers-mode)
                                  (auto-dim-other-buffers-mode t)))))
 
-(add-to-list 'load-path "~/.emacs.d/00testing/colors")
+(add-to-list 'load-path "~/.emacs.d/modules/colors")
 ;;; DID YOU GOT STUCK ABOVE? COMMENT LINE ABOVE
 (require 'ansi-color)
 (defun colorize-compilation-buffer ()
@@ -413,7 +413,7 @@
 (setq nlinum-delay t)
 (add-hook 'find-file-hook (lambda () (nlinum-mode 1)))
 
-;; (add-to-list 'load-path "~/.emacs.d/00testing/isend-mode/")
+;; (add-to-list 'load-path "~/.emacs.d/modules/isend-mode/")
 ;; (require 'isend)
 
 ;; (setq xle-buffer-process-coding-system 'utf-8)

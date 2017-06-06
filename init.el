@@ -2,7 +2,7 @@
 ;;; emacs config file for 25.0
 ;;======================================================================
 
-(setq user-full-name "r68bux"
+(setq user-full-name "Manish Marahatta(r68bux)"
       user-mail-address "me@manishmarahatta.com.np")
 
 ;; debug on C-g; to point broken modules

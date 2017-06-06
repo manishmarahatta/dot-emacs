@@ -1,6 +1,6 @@
 # -*- mode: snippet; require-final-newline: nil -*-
 # name: bang
-# contributor: rho
+# contributor: r68bux
 # key: !
 # --
 #!/usr/bin/env python3
