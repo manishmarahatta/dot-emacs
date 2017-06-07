@@ -955,4 +955,4 @@
 
 
 * References
-[1.@rhoit](https://www.github.com/rhoit)
+[[https://github.com/rhoit][@rhoit]
