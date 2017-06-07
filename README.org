@@ -3,13 +3,13 @@
 * Intro
 
   NOTE: init.el has been converted to README.org
-
+  This config was tested in Arch Linux and macOS Sierra(v 10.12.5)
   #+ATTR_HTML: title="screenshot"
   [[http://manishmarahatta.com.np][file:https://user-images.githubusercontent.com/13973154/26870341-65e95114-4b8f-11e7-8ba4-e22e326b5617.png]]
 ** Get it
 
    #+BEGIN_EXAMPLE
-     $ git clone https://github.com/manishmarahatta/dot-emacs /path/to/dot-emacs
+     $ git clone https://github.com/manishmarahatta/dot-emacs ~/.emacs.d/
    #+END_EXAMPLE
 
 ** How to build
