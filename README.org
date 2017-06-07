@@ -3,7 +3,10 @@
 * Intro
 
   NOTE: init.el has been converted to README.org
+  #+BEGIN_EXAMPLE
   This config was tested in Arch Linux and macOS Sierra(v 10.12.5)
+  #+END_EXAMPLE
+
   #+ATTR_HTML: title="screenshot"
   [[http://manishmarahatta.com.np][file:https://user-images.githubusercontent.com/13973154/26870341-65e95114-4b8f-11e7-8ba4-e22e326b5617.png]]
 ** Get it
@@ -19,9 +22,8 @@
 
    #+BEGIN_SRC bash
      $ ./configure
-     $ make
-     $ make install
    #+END_SRC
+   Run and let the magic happen...
 
 ** Structure
 
