@@ -90,7 +90,7 @@
 (el-get 'sync 'powerline)
 (require 'powerline)
 
-;;; https://github.com/rhoit/powerline-iconic-theme
+;;; https://github.com/manishmarahatta/powerline-iconic-theme
 ;; (add-to-list 'load-path "~/.emacs.d/modules/powerline-iconic-theme/")
 (load-file "~/.emacs.d/modules/powerline-iconic-theme/iconic.el")
 (powerline-iconic-theme)
