@@ -1,0 +1,26 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/manishmarahatta/" . ".emacs.d/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/manishmarahatta/.emacs.d/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "README.org"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/manishmarahatta/.emacs.d/" (22839 48602 0 0) "url/" "snippets/" "smex-items" "scripts/" "recentf" "README.org" "README.el" "plug-ins/" "modules/" "Makefile" "init.el" "ido.last" "elpa/" "el-get/" "configure" "config/" "auto-save-list/" "ac-comphist.dat" ".gitignore" ".git/" ".DS_Store" "../" "./")
+
+ ("/Users/manishmarahatta/" (22839 32458 0 0) "tf_hg/" "Tensorflow-for-stock-prediction/" "StockPricePrediction/" "stock_module/" "stock-market-prediction-using-deep-learning/" "py-exec/" "Public/" "predictiondata.csv" "predicting_stock_prices/" "Pictures/" "neural-network-stock-predictor/" "nepal-budget-2074/" "Music/" "Movies/" "mm.py" "manishmarahatta.com.np/" "m.py" "login_alert.sh" "Library/" "en-tlrate-ne/" "echo-rush/" "dual_moving_average.py" "Downloads/" "dot-emacs/" "Documents/" "Desktop/" ".zipline/" ".weechat/" ".viminfo" ".travis/" ".Trash/" ".subversion/" ".ssh/" ".sqlite_history" ".rbenv/" ".python_history" ".plotly/" ".oracle_jre_usage/" ".npm/" ".node-gyp/" ".netrc" ".matplotlib/" ".local/" ".keras/" ".jupyter/" ".ipython/" ".idlerc/" ".gradle/" ".gitmodules" ".gitkraken/" ".gitconfig" ".gem/" ".emulator_console_auth_token" ".emacs.d/" ".elfeed/" ".DS_Store" ".config/" ".CFUserTextEncoding" ".cache/" ".bundle/" ".bash_sessions/" ".bash_profile.pysave" ".bash_profile" ".bash_history" ".atom/" ".android/" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

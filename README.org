@@ -6,7 +6,7 @@
   NOTE: init.el has been converted to README.org
 
   #+ATTR_HTML: title="screenshot"
-  [[https://www.google.com][file:https://cloud.githubusercontent.com/assets/13973154/23092161/0e53ea06-f5ed-11e6-990f-c8e54c296258.png]]
+  [[http://manishmarahatta.com.np][file:https://user-images.githubusercontent.com/13973154/26870341-65e95114-4b8f-11e7-8ba4-e22e326b5617.png]]
 ** Get it
 
    #+BEGIN_EXAMPLE
