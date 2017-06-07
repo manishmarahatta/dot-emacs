@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ read-only-mode
  quit-window
  doc-view-mode
  package-install
  doctex-mode
  customize-face
  eval-buffer
- describe-char
 )
 
 ;; ----- smex-data -----
@@ -29,4 +29,5 @@
  (package-install . 1)
  (doc-view-mode . 2)
  (quit-window . 1)
+ (read-only-mode . 1)
 )
