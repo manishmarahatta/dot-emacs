@@ -2,22 +2,30 @@
 
 ;; ----- ido-last-directory-list -----
 (
- ("/Users/manishmarahatta/" . ".emacs.d/")
+ ("/Users/manishmarahatta/.emacs.d/" . "config/")
+ ("/Users/manishmarahatta/" . "manishmarahatta.com.np/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
+ "/Users/manishmarahatta/manishmarahatta.com.np/"
+ "/Users/manishmarahatta/.emacs.d/config/"
  "/Users/manishmarahatta/.emacs.d/"
 )
 
 ;; ----- ido-work-file-list -----
 (
  "README.org"
+ "ui.cfg.el"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/manishmarahatta/.emacs.d/" (22839 52068 0 0) "url/" "snippets/" "smex-items" "scripts/" "recentf" "README.org" "README.el" "plug-ins/" "network-security.data" "modules/" "Makefile" "init.el" "ido.last" "emojis/" "elpa/" "el-get/" "configure" "config/" "auto-save-list/" "ac-comphist.dat" ".gitignore" ".git/" ".DS_Store" "../" "./")
+ ("/Users/manishmarahatta/manishmarahatta.com.np/" (22836 56002 0 0) "static/" "README.org" "public/" "layouts/" "content/" "config.toml" "CNAME" "archetypes/" "_scripts/" ".gitignore" ".git/" ".DS_Store" "../" "./")
+
+ ("/Users/manishmarahatta/.emacs.d/config/" (22838 15572 0 0) "ui.cfg.el" "tabbar.cfg.el" "org-mode.cfg.el" "html.cfg.el" "compile.cfg.el" "babel.cfg.el" "../" "./")
+
+ ("/Users/manishmarahatta/.emacs.d/" (22839 54953 0 0) "url/" "snippets/" "smex-items" "scripts/" "recentf" "README.org" "README.el" "plug-ins/" "network-security.data" "modules/" "Makefile" "init.el" "ido.last" "emojis/" "elpa/" "el-get/" "configure" "config/" "auto-save-list/" "ac-comphist.dat" ".gitignore" ".git/" ".DS_Store" "../" "./")
 
  ("/Users/manishmarahatta/" (22839 32458 0 0) "tf_hg/" "Tensorflow-for-stock-prediction/" "StockPricePrediction/" "stock_module/" "stock-market-prediction-using-deep-learning/" "py-exec/" "Public/" "predictiondata.csv" "predicting_stock_prices/" "Pictures/" "neural-network-stock-predictor/" "nepal-budget-2074/" "Music/" "Movies/" "mm.py" "manishmarahatta.com.np/" "m.py" "login_alert.sh" "Library/" "en-tlrate-ne/" "echo-rush/" "dual_moving_average.py" "Downloads/" "dot-emacs/" "Documents/" "Desktop/" ".zipline/" ".weechat/" ".viminfo" ".travis/" ".Trash/" ".subversion/" ".ssh/" ".sqlite_history" ".rbenv/" ".python_history" ".plotly/" ".oracle_jre_usage/" ".npm/" ".node-gyp/" ".netrc" ".matplotlib/" ".local/" ".keras/" ".jupyter/" ".ipython/" ".idlerc/" ".gradle/" ".gitmodules" ".gitkraken/" ".gitconfig" ".gem/" ".emulator_console_auth_token" ".emacs.d/" ".elfeed/" ".DS_Store" ".config/" ".CFUserTextEncoding" ".cache/" ".bundle/" ".bash_sessions/" ".bash_profile.pysave" ".bash_profile" ".bash_history" ".atom/" ".android/" "../" "./")
 )
