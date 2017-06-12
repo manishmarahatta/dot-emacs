@@ -31,7 +31,7 @@
           json-reformat json-snatcher magit moz-repl multiple-cursors
           pkg-info popup popup-kill-ring pos-tip pylookup python
           python-environment recentf-ext request s undo-tree
-          web-mode websocket yasnippet outorg outshine package)
+          web-mode websocket google-this yasnippet outorg outshine package)
         (mapcar 'el-get-as-symbol (mapcar 'el-get-source-name
         el-get-sources))))
 (el-get 'sync dim-packages)

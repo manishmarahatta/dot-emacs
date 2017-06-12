@@ -320,7 +320,7 @@
 ** smooth scroll
 
    Unfortunately emacs :barber: scrolling :barber: is not smooth, its
-   *2016* already.
+   *2017* already.
 
    #+begin_src emacs-lisp
      (el-get 'sync 'smooth-scroll)
@@ -954,7 +954,6 @@
   # buffer-read-only: t
   # eval: (server-force-delete)
   # End:
-
 
 * References
 1. [[https://github.com/rhoit][@rhoit]]

@@ -31,7 +31,7 @@
  '(inhibit-startup-screen t)
  '(magit-diff-refine-hunk (quote all))
  '(menu-bar-mode nil)
- '(package-selected-packages (quote (wget twittering-mode)))
+ '(package-selected-packages (quote (google-this helm wget twittering-mode)))
  '(python-shell-completion-native-enable nil)
  '(safe-local-variable-values
    (quote
