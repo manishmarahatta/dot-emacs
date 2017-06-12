@@ -5,8 +5,7 @@
 #+STARTUP: overview
 
 *NOTE:* :warning: THIS CONFIG IS UNLIKELY TO HARM YOU/YOUR
-SYSTEM
-:fire: Make Sure you backup your config before implementing this  :fire: :bangbang:
+SYSTEM :fire: Make Sure you backup your config before implementing this  :fire: :bangbang:
 
 
 * Intro
