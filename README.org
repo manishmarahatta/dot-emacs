@@ -25,6 +25,48 @@
    #+END_SRC
    Run and let the magic happen...
 
+** Script to automatically build emacs config
+#+BEGIN_SRC bash
+#!/bin/sh
+
+echo "=========================================="
+echo "Wait, while the emacs config builds itself"
+echo "=========================================="
+
+cd ~
+
+DIRFIRST=~/.emacs.d
+DIRSECOND=~/.emacs.d.backup
+FILEFIRST=~/.emacs
+
+if [ ! -f $DIRFIRST ]
+then
+    mv ~/.emacs.d .emacs.d.backup;
+fi
+
+if [ ! -f $DIRSECOND ]
+then
+    mv ~/.emacs.d.backup .emacs.d.backup.another;
+fi
+
+if [ ! -f $FILEFIRST ]
+then
+    mv ~/.emacs .emacs.backup
+fi
+
+git clone https://github.com/manishmarahatta/dot-emacs.git ~/.emacs.d/
+cd ~/.emacs.d
+./configure
+cd ~
+#+END_SRC
+save the above file as autoconfig.sh
+#+BEGIN_SRC bash
+chmod +x autoconfig.sh
+#+END_SRC
+Then type
+#+BEGIN_SRC
+./autoconfig.sh
+#+END_SRC
 ** Structure
 
    #+BEGIN_EXAMPLE
