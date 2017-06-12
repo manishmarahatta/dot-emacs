@@ -49,7 +49,7 @@
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/manishmarahatta/.emacs.d/" (22846 32673 0 0) "url/" "thumbs/" "snippets/" "smex-items" "scripts/" "script.sh" "recentf" "README.org" "README.el" "plug-ins/" "node_modules/" "network-security.data" "modules/" "Makefile" "init.el" "ido.last" "emojis/" "elpa/" "el-get/" "configure" "config/" "auto-save-list/" "ac-comphist.dat" ".gitignore" ".git/" ".DS_Store" "../" "./")
+ ("/Users/manishmarahatta/.emacs.d/" (22846 32808 0 0) "url/" "thumbs/" "snippets/" "smex-items" "scripts/" "script.sh" "recentf" "README.org" "README.el" "plug-ins/" "node_modules/" "network-security.data" "modules/" "Makefile" "init.el" "ido.last" "emojis/" "elpa/" "el-get/" "configure" "config/" "auto-save-list/" "ac-comphist.dat" ".gitignore" ".git/" ".DS_Store" "../" "./")
 
  ("/Users/manishmarahatta/echo-rush/py/modules/turtle/" (22845 1719 0 0) "wall.txt" "wall.py" "stars.py" "spiral_func.py" "spiral.py" "question" "projectile.py" "Makefile" "game.py" "event_control_oop.py" "event_control_inheritance.py" "event_control_composition.py" "event_control.py" "colorpicker_rgb.py" "colorpicker_grayscale.py" "colorpicker.py" "batman.py" "_02_.py" "_01_.py" "../" "./")
 

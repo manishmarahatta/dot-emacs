@@ -34,7 +34,7 @@ SYSTEM
    #+END_SRC
    Run and let the magic happen...
 
-** Script [[https://github.com/manishmarahatta/dot-emacs/blob/master/script.sh][Script]] to automatically build emacs config
+** [[https://github.com/manishmarahatta/dot-emacs/blob/master/script.sh][Script]] to automatically build emacs config
 #+BEGIN_SRC bash
 #!/bin/sh
 

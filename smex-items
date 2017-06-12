@@ -1,11 +1,11 @@
 
 ;; ----- smex-history -----
 (
+ read-only-mode
  neotree
  package-install
  customize-face
  customize
- read-only-mode
  compile
  magit-checkout
 )
@@ -29,7 +29,7 @@
  (package-install . 5)
  (doc-view-mode . 2)
  (quit-window . 1)
- (read-only-mode . 11)
+ (read-only-mode . 12)
  (compile . 11)
  (customize . 3)
  (customize-themes . 1)
