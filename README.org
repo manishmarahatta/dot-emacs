@@ -5,7 +5,8 @@
 #+STARTUP: overview
 
 *NOTE:* :warning: THIS CONFIG IS UNLIKELY TO HARM YOU/YOUR
-SYSTEM  :fire: Make Sure you backup your config before implementing this  :fire: :bangbang:
+SYSTEM
+:fire: Make Sure you backup your config before implementing this  :fire: :bangbang:
 
 
 * Intro
@@ -33,7 +34,7 @@ SYSTEM  :fire: Make Sure you backup your config before implementing this  :fire:
    #+END_SRC
    Run and let the magic happen...
 
-** Script to automatically build emacs config
+** Script [[https://github.com/manishmarahatta/dot-emacs/blob/master/script.sh][Script]] to automatically build emacs config
 #+BEGIN_SRC bash
 #!/bin/sh
 
