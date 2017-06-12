@@ -2,6 +2,7 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/Users/manishmarahatta/manishmarahatta.com.np/" . "archetypes/")
  ("/Users/" . "manishmarahatta/")
  ("/Users/manishmarahatta/Downloads/angularflask/" . "templates/")
  ("/Users/manishmarahatta/Downloads/" . "angularflask/")
@@ -10,13 +11,17 @@
  ("/Users/manishmarahatta/echo-rush/py/" . "modules/")
  ("/Users/manishmarahatta/echo-rush/" . "py/")
  ("/Users/manishmarahatta/.emacs.d/" . "config/")
- ("/Users/manishmarahatta/" . ".emacs.d/")
+ ("/Users/manishmarahatta/" . "manishmarahatta.com.np/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
- "/Users/manishmarahatta/.emacs.d/"
+ "/Users/manishmarahatta/manishmarahatta.com.np/archetypes/"
  "/Users/manishmarahatta/crawler/"
+ "/Users/manishmarahatta/manishmarahatta.com.np/content/μBlog/"
+ "/Users/manishmarahatta/.emacs.d/config/"
+ "/Users/manishmarahatta/.emacs.d/"
+ "/Users/manishmarahatta/manishmarahatta.com.np/"
  "/Users/manishmarahatta/Downloads/"
  "/Users/manishmarahatta/Downloads/angularflask/templates/"
  "/Users/manishmarahatta/Downloads/angularflask/"
@@ -26,33 +31,39 @@
  "/Users/manishmarahatta/echo-rush/py/modules/"
  "/Users/manishmarahatta/"
  "/Users/manishmarahatta/echo-rush/py/"
- "/Users/manishmarahatta/manishmarahatta.com.np/"
- "/Users/manishmarahatta/.emacs.d/config/"
 )
 
 ;; ----- ido-work-file-list -----
 (
+ "default.md"
+ "scrape_module2.py"
+ "2017-06-12-1000.org"
+ "babel.cfg.el"
+ "init.el"
  "README.org"
  "README.el"
  "Makefile"
  "app.py"
  "scraper.py"
- "Unknown"
- "index.html"
- "game.py"
- "newone.py"
- "config.conf"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/manishmarahatta/.emacs.d/" (22846 3259 0 0) "url/" "snippets/" "smex-items" "scripts/" "recentf" "README.org" "README.el" "plug-ins/" "network-security.data" "modules/" "Makefile" "init.el" "ido.last" "emojis/" "elpa/" "el-get/" "configure" "config/" "auto-save-list/" "ac-comphist.dat" ".gitignore" ".git/" ".DS_Store" "../" "./")
+ ("/Users/manishmarahatta/manishmarahatta.com.np/archetypes/" (22773 51838 0 0) "project.md" "default.md" "../" "./")
+
+ ("/Users/manishmarahatta/manishmarahatta.com.np/static/" (22773 51838 0 0) "static/" "media/" "favicon.ico" "apple-touch-icon.png" ".DS_Store" "../" "./")
+
+ ("/Users/manishmarahatta/manishmarahatta.com.np/content/" (22846 5951 0 0) "μBlog/" "project/" "presentation/" "post/" "emacs/" ".DS_Store" "../" "./")
+
+ ("/Users/manishmarahatta/.emacs.d/" (22846 5606 0 0) "url/" "thumbs/" "snippets/" "smex-items" "scripts/" "recentf" "README.org" "README.el" "plug-ins/" "node_modules/" "network-security.data" "modules/" "Makefile" "init.el" "ido.last" "emojis/" "elpa/" "el-get/" "configure" "config/" "auto-save-list/" "ac-comphist.dat" ".gitignore" ".git/" ".DS_Store" "../" "./")
+
+ ("/Users/manishmarahatta/" (22846 5440 0 0) "tf_hg/" "Tensorflow-for-stock-prediction/" "StockPricePrediction/" "stock_module/" "stock-market-prediction-using-deep-learning/" "PycharmProjects/" "py-exec/" "Public/" "predictiondata.csv" "predicting_stock_prices/" "pot1.py" "pot.py" "Pictures/" "package-lock.json" "paasai/" "node_modules/" "neural-network-stock-predictor/" "nepal-budget-2074/" "Music/" "Movies/" "mm.py" "manishmarahatta.com.np/" "m.py" "login_alert.sh" "Library/" "en-tlrate-ne/" "echo-rush/" "dual_moving_average.py" "Downloads/" "dot-emacs/" "Documents/" "Desktop/" "crawler/" "__pycache__/" ".zipline/" ".weechat/" ".viminfo" ".travis/" ".Trash/" ".subversion/" ".ssh/" ".sqlite_history" ".rbenv/" ".python_history" ".plotly/" ".oracle_jre_usage/" ".npm/" ".node-gyp/" ".netrc" ".matplotlib/" ".local/" ".keras/" ".jupyter/" ".ipython/" ".idlerc/" ".gradle/" ".gitmodules" ".gitkraken/" ".gitconfig" ".gem/" ".emulator_console_auth_token" ".emacs.d/" ".elfeed/" ".DS_Store" ".config/" ".CFUserTextEncoding" ".cache/" ".bundle/" ".bash_sessions/" ".bash_profile.pysave" ".bash_profile" ".bash_history" ".atom/" ".android/" "../" "./")
+
+ ("/Users/manishmarahatta/manishmarahatta.com.np/" (22846 4190 0 0) "static/" "README.org" "public/" "layouts/" "content/" "config.toml" "CNAME" "archetypes/" "_scripts/" ".gitignore" ".git/" ".DS_Store" "../" "./")
 
  ("/Users/manishmarahatta/.emacs.d/el-get/" (22846 3015 0 0) "yasnippet/" "with-editor/" "websocket/" "web-mode/" "undo-tree/" "test/" "tabbar/" "smooth-scroll/" "smex/" "seq/" "s/" "request/" "recipes/" "recentf-ext/" "README.md" "rainbow-delimiters/" "python-environment/" "python/" "pylookup/" "powerline/" "pos-tip/" "popup-kill-ring/" "popup/" "pkg-info/" "package/" "outshine/" "outorg/" "neotree/" "multiple-cursors/" "moz-repl/" "methods/" "markdown-mode/" "magit/" "logo/" "json-snatcher/" "json-reformat/" "json-mode/" "jedi/" "ht/" "highline/" "highlight-symbol/" "goto-chg/" "git-modes/" "fuzzy/" "flymake-cursor/" "flymake/" "fill-column-indicator/" "f/" "exec-path-from-shell/" "epl/" "epc/" "emojify/" "emacs-async/" "el-get.texi" "el-get.info" "el-get.el" "el-get-status.el" "el-get-recipes.el" "el-get-notify.el" "el-get-methods.el" "el-get-list-packages.el" "el-get-install.el" "el-get-dependencies.el" "el-get-custom.el" "el-get-core.el" "el-get-check.el" "el-get-byte-compile.el" "el-get-bundle.el" "el-get-build.el" "el-get-autoloading.el" "el-get/" "ein/" "dockerfile-mode/" "deferred/" "dash/" "ctable/" "cleanup-whitespace.sh" "cl-lib/" "auto-complete/" "anzu/" "ample-regexps/" ".travis.yml" ".status.el" ".loaddefs.elc" ".loaddefs.el" ".dir-locals.el" "../" "./")
 
  ("/Users/manishmarahatta/crawler/" (22846 1290 0 0) "site_scrapper.py" "scrape_module3.py" "scrape_module2.py" "scrape_module1.py" "Makefile" "crawler_ss.py" "config.conf" ".git/" ".DS_Store" "../" "./")
-
- ("/Users/manishmarahatta/" (22845 63842 0 0) "tf_hg/" "Tensorflow-for-stock-prediction/" "StockPricePrediction/" "stock_module/" "stock-market-prediction-using-deep-learning/" "PycharmProjects/" "py-exec/" "Public/" "predictiondata.csv" "predicting_stock_prices/" "pot1.py" "pot.py" "Pictures/" "paasai/" "neural-network-stock-predictor/" "nepal-budget-2074/" "Music/" "Movies/" "mm.py" "manishmarahatta.com.np/" "m.py" "login_alert.sh" "Library/" "en-tlrate-ne/" "echo-rush/" "dual_moving_average.py" "Downloads/" "dot-emacs/" "Documents/" "Desktop/" "crawler/" "__pycache__/" ".zipline/" ".weechat/" ".viminfo" ".travis/" ".Trash/" ".subversion/" ".ssh/" ".sqlite_history" ".rbenv/" ".python_history" ".plotly/" ".oracle_jre_usage/" ".npm/" ".node-gyp/" ".netrc" ".matplotlib/" ".local/" ".keras/" ".jupyter/" ".ipython/" ".idlerc/" ".gradle/" ".gitmodules" ".gitkraken/" ".gitconfig" ".gem/" ".emulator_console_auth_token" ".emacs.d/" ".elfeed/" ".DS_Store" ".config/" ".CFUserTextEncoding" ".cache/" ".bundle/" ".bash_sessions/" ".bash_profile.pysave" ".bash_profile" ".bash_history" ".atom/" ".android/" "../" "./")
 
  ("/Users/manishmarahatta/Downloads/" (22845 5561 0 0) "Unknown" "SSRN-id2609814.pdf" "Sprint__How_to_Solve_Big_Problem__and_Te_t_-_Jake_Knapp.epub" "sequence.png" "search.html" "Screenshot_2016-09-28_20-27-55.png" "Resume.pdf" "python3.odp" "Python-Logo-PNG-Image.png" "Py3kEuro08.ppt" "project3.pdf" "Project01.tar" "onlisp.pdf" "novus-nvd3-6bfd678/" "MyContact/" "Losing-My-Virginity-How-I-Survived-Richard-Branson.pdf" "Learn Python The Hard Way, 3rd Edition .pdf" "IT Time Table - Yr2 LMU.pdf" "IMG_20170213_235740.jpg" "IMG_20160801_191354.jpg" "HACKS FROM STUPID HACKATHON SWEDEN 2017.pdf" "Hacking Fiber optics easier than copper cable-Paper Presentation.pdf" "favicon.ico" "Failedstartups_ebook.pdf" "Example.odt" "emacs.pdf" "Emacs-Beginner-HOWTO.pdf" "Emacs-25.2-universal.dmg" "DIY Deep Learning for Vision_  a Hands-On Tutorial with Caffe.pdf" "Demo.tar" "dd.jpg" "DBZVdZSXgAEmDPa.jpg-large.jpeg" "DBeHUYcVYAAVe_n.jpg-large.jpeg" "coursework.jpg" "course" "class.png" "Clarity-Advice-Guide-Mar-2013-Edition.pdf" "calc.py" "calc" "C6D71DNU4AAYrtt.jpg-large.jpeg" "Ashlee Vance - Elon Musk; Tesla, SpaceX, and the Quest for a Fantastic Future - Rocky_45 [CPUL].epub" "angularflask/" "AI_Projects.pdf" "A Gift of Fire- Social, Legal, and Ethical Issues for Computing Technology.pdf" "9b7.png" "279days.pdf" "18920566_817326885089854_5779612661712632592_n.jpg" "18699340_1513977712008689_844976205384352109_o.jpg" "18581556_1032195170246967_7014563964151622077_n.jpg" "18119528_1849148005351940_2432721598111392202_n.jpg" "18119091_1901101706794609_6107284316560262811_n.jpg" "15253368_1617359495233169_3627826430235818072_n.jpg" "1024px-Guido_van_Rossum_OSCON_2006.jpg" "1.JPG" ".localized" ".DS_Store" "../" "./")
 
@@ -81,8 +92,6 @@
  ("/Users/manishmarahatta/echo-rush/py/" (22838 15388 0 0) "workout/" "modules/" "illustrate/" "class_notes/" "_10_tips.py" "_08_advance.py" "_07_taleOfLibraries.py" "_06_underTheHood.org" "_05_pythonicWays.py" "_04_notSoBasic.py" "_03_primer.py" "_02_basics.py" "_01_intro.py" "_00_crash.org" ".gitignore" ".DS_Store" "../" "./")
 
  ("/Users/manishmarahatta/echo-rush/" (22838 15388 0 0) "README.org" "py/" "makefile/" "gtk3/" "bash/" ".gitignore" ".git/" ".DS_Store" "../" "./")
-
- ("/Users/manishmarahatta/manishmarahatta.com.np/" (22836 56002 0 0) "static/" "README.org" "public/" "layouts/" "content/" "config.toml" "CNAME" "archetypes/" "_scripts/" ".gitignore" ".git/" ".DS_Store" "../" "./")
 
  ("/Users/manishmarahatta/.emacs.d/config/" (22838 15572 0 0) "ui.cfg.el" "tabbar.cfg.el" "org-mode.cfg.el" "html.cfg.el" "compile.cfg.el" "babel.cfg.el" "../" "./")
 )
