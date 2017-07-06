@@ -1,0 +1,8 @@
+;; Object gh/gh-gist-api/manishmarahatta
+;; EIEIO PERSISTENT OBJECT
+(gh-cache "gh/gh-gist-api/manishmarahatta"
+  :file "manishmarahatta"
+  :object-name "gh/gh-gist-api/manishmarahatta"
+  :version "25.2.1/0.4/gh-4"
+  :entries #s(hash-table size 65 test equal rehash-size 1.5 rehash-threshold 0.8 data ())
+  :timestamp 1499356289.782644)

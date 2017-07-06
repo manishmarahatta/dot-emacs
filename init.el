@@ -35,7 +35,9 @@
  '(inhibit-startup-screen t)
  '(magit-diff-refine-hunk (quote all))
  '(menu-bar-mode nil)
- '(package-selected-packages (quote (octicons google-this helm wget twittering-mode)))
+ '(package-selected-packages
+   (quote
+    (fullscreen-mode fullframe octicons google-this helm wget twittering-mode)))
  '(python-shell-completion-native-enable nil)
  '(safe-local-variable-values
    (quote
@@ -70,7 +72,6 @@
  '(font-lock-variable-name-face ((t (:foreground "sandy brown"))))
  '(font-lock-warning-face ((t (:background "yellow1" :foreground "red1" :weight bold))))
  '(linum ((t (:inherit (shadow default) :height 108))))
- (set-face-attribute 'default nil :height 165)
  '(markdown-header-delimiter-face ((t (:inherit font-lock-function-name-face :weight bold))) t)
  '(markdown-header-face-1 ((t (:height 1.8))) t)
  '(markdown-header-face-2 ((t (:height 1.6))) t)
