@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ comment-region
+ helm-M-x
  read-only-mode
- neotree
- package-install
- customize-face
- customize
  compile
- magit-checkout
+ org-columns-compute
+ cpp-parse-edit
+ c-mode
 )
 
 ;; ----- smex-data -----
@@ -16,7 +16,7 @@
  (org-attach . 2)
  (list-packages . 3)
  (el-get-cd . 1)
- (el-get-install . 3)
+ (el-get-install . 5)
  (twit . 3)
  (package-menu-mode . 1)
  (eww . 1)
@@ -29,12 +29,21 @@
  (package-install . 5)
  (doc-view-mode . 2)
  (quit-window . 1)
- (read-only-mode . 12)
- (compile . 11)
+ (read-only-mode . 20)
+ (compile . 19)
  (customize . 3)
  (customize-themes . 1)
  (magit-status . 1)
  (magit-checkout . 1)
  (hideshowvis-minor-mode . 1)
- (neotree . 3)
+ (neotree . 8)
+ (org-md-export-as-markdown . 1)
+ (neotree-dir . 1)
+ (neotree-mode . 1)
+ (c-mode . 1)
+ (cpp-parse-edit . 2)
+ (cpp-edit-mode . 1)
+ (org-columns-compute . 1)
+ (helm-M-x . 1)
+ (comment-region . 1)
 )

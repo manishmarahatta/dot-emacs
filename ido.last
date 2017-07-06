@@ -2,7 +2,11 @@
 
 ;; ----- ido-last-directory-list -----
 (
- ("/Users/manishmarahatta/manishmarahatta.com.np/" . "archetypes/")
+ ("/Users/manishmarahatta/rfid/pysrv/" . "templates/")
+ ("/Users/manishmarahatta/rfid/" . "pysrv/")
+ ("/Users/manishmarahatta/crawler/" . "crawler/")
+ ("/Users/manishmarahatta/manishmarahatta.com.np/content/" . "μBlog/")
+ ("/Users/manishmarahatta/manishmarahatta.com.np/" . "content/")
  ("/Users/" . "manishmarahatta/")
  ("/Users/manishmarahatta/Downloads/angularflask/" . "templates/")
  ("/Users/manishmarahatta/Downloads/" . "angularflask/")
@@ -17,39 +21,91 @@
 ;; ----- ido-work-directory-list -----
 (
  "/Users/manishmarahatta/.emacs.d/"
+ "/Users/manishmarahatta/.emacs.d/config/"
+ "/Users/manishmarahatta/rfid/pysrv/"
+ "/Users/manishmarahatta/rfid/"
+ "/Users/manishmarahatta/rfid/pysrv/templates/"
+ "/Users/manishmarahatta/jedi/"
+ "/Users/manishmarahatta/tf_hg/"
+ "/Users/manishmarahatta/myfolder/"
+ "/Users/manishmarahatta/crawler/crawler/"
+ "/Users/manishmarahatta/crawler/nepalstock/"
+ "/Users/manishmarahatta/crawler/"
+ "/Users/manishmarahatta/doingcpp/"
+ "/Users/manishmarahatta/Downloads/"
+ "/Users/manishmarahatta/manishmarahatta.com.np/content/emacs/"
+ "/Users/manishmarahatta/echo-rush/py/"
+ "/Users/manishmarahatta/urlwatch/"
+ "/Users/manishmarahatta/.urlwatch/"
+ "/Users/manishmarahatta/"
+ "/Users/manishmarahatta/echo-rush/py/modules/anothergame/"
+ "/Users/manishmarahatta/echo-rush/py/modules/game/"
+ "/Users/manishmarahatta/echo-rush/py/modules/"
  "/Users/manishmarahatta/echo-rush/py/modules/turtle/"
  "/Users/manishmarahatta/manishmarahatta.com.np/archetypes/"
- "/Users/manishmarahatta/crawler/"
  "/Users/manishmarahatta/manishmarahatta.com.np/content/μBlog/"
- "/Users/manishmarahatta/.emacs.d/config/"
  "/Users/manishmarahatta/manishmarahatta.com.np/"
- "/Users/manishmarahatta/Downloads/"
  "/Users/manishmarahatta/Downloads/angularflask/templates/"
  "/Users/manishmarahatta/Downloads/angularflask/"
  "/Users/manishmarahatta/paasai/"
  "/Users/manishmarahatta/echo-rush/py/class_notes/"
- "/Users/manishmarahatta/echo-rush/py/modules/"
- "/Users/manishmarahatta/"
- "/Users/manishmarahatta/echo-rush/py/"
 )
 
 ;; ----- ido-work-file-list -----
 (
  "README.org"
- "_01_.py"
- "default.md"
- "scrape_module2.py"
- "2017-06-12-1000.org"
- "babel.cfg.el"
- "init.el"
- "README.el"
- "Makefile"
- "app.py"
+ "compile.cfg.el"
+ "server.py"
+ "projectRFID.sql"
+ "run.py"
+ "main.py"
+ "logs.html"
+ "list.html"
+ "inputform.html"
+ "base-table.djhtml"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/manishmarahatta/.emacs.d/" (22846 32808 0 0) "url/" "thumbs/" "snippets/" "smex-items" "scripts/" "script.sh" "recentf" "README.org" "README.el" "plug-ins/" "node_modules/" "network-security.data" "modules/" "Makefile" "init.el" "ido.last" "emojis/" "elpa/" "el-get/" "configure" "config/" "auto-save-list/" "ac-comphist.dat" ".gitignore" ".git/" ".DS_Store" "../" "./")
+ ("/Users/manishmarahatta/.emacs.d/" (22878 10331 0 0) "url/" "thumbs/" "snippets/" "smex-items" "scripts/" "script.sh" "recentf" "README.org" "README.el" "plug-ins/" "node_modules/" "network-security.data" "modules/" "Makefile" "init.el" "ido.last" "emojis/" "elpa/" "el-get/" "configure" "config/" "auto-save-list/" "ac-comphist.dat" ".gitignore" ".git/" ".DS_Store" "../" "./")
+
+ ("/Users/manishmarahatta/" (22878 8980 0 0) "UnLockIT/" "tf_hg/" "tensorflow-rnn-shakespeare/" "Tensorflow-for-stock-prediction/" "StockPricePrediction/" "stock_module/" "stock-market-prediction-using-deep-learning/" "Simple-CRUD-Flask-App/" "scrapper/" "rfid/" "PycharmProjects/" "py-exec/" "Public/" "predictiondata.csv" "predicting_stock_prices/" "Pictures/" "package-lock.json" "paasai/" "Object_Detection_demo_LIVE/" "node_modules/" "neural-network-stock-predictor/" "Music/" "Movies/" "manishmarahatta.com.np/" "manishbot.py" "manishbot" "login_alert.sh" "Library/" "jedi/" "Hello/" "en-tlrate-ne/" "echo-rush/" "dual_moving_average.py" "Downloads/" "dot-emacs/" "Documents/" "Desktop/" "crawler/" "awesome-terminal-fonts/" "Applications/" ".zshrc" ".zsh_history" ".zsh-update" ".zipline/" ".zcompdump-manish’s MacBook Pro-5.2" ".weechat/" ".viminfo" ".urlwatch/" ".travis/" ".Trash/" ".subversion/" ".ssh/" ".sqlite_history" ".rbenv/" ".python_history" ".plotly/" ".oracle_jre_usage/" ".oh-my-zsh/" ".npm/" ".node-gyp/" ".netrc" ".matplotlib/" ".local/" ".keras/" ".jupyter/" ".ipython/" ".idlerc/" ".gradle/" ".gitmodules" ".gitkraken/" ".gitconfig" ".gem/" ".emulator_console_auth_token" ".emacs.d/" ".elfeed/" ".DS_Store" ".config/" ".CFUserTextEncoding" ".cache/" ".bundle/" ".bash_sessions/" ".bash_profile.pysave" ".bash_profile" ".bash_history" ".atom/" ".android/" ".aliases" "../" "./")
+
+ ("/Users/manishmarahatta/rfid/pysrv/" (22868 40042 0 0) "templates/" "server.py" "pythonsqlite.py" "projectRFID.sql" "Makefile" "__pycache__/" ".DS_Store" "../" "./")
+
+ ("/Users/manishmarahatta/rfid/" (22868 40050 0 0) "venv/" "run.py" "requirements.txt" "pythonsqlite.py" "pysrv/" "projectRFID.sql" "Makefile" "main.py" "dump" "configure" ".idea/" ".gitignore" ".git/" ".DS_Store" "../" "./")
+
+ ("/Users/manishmarahatta/rfid/pysrv/templates/" (22868 34184 0 0) "logs.html" "list.html" "inputform.html" "base.djhtml" "base-table.djhtml" "../" "./")
+
+ ("/Users/manishmarahatta/PycharmProjects/" (22845 1395 0 0) "../" "./")
+
+ ("/Users/manishmarahatta/crawler/crawler/" (22856 42431 0 0) "scraper.py" "scrape_module3.py" "scrape_module2.py" "scrape_module1.py" "Makefile" "../" "./")
+
+ ("/Users/manishmarahatta/crawler/" (22855 60217 0 0) "nepalstock/" "forex/" "floorsheet/" "cron.sh" "crawler/" "companies/" "commodities/" ".gitignore" ".git/" ".DS_Store" "../" "./")
+
+ ("/Users/manishmarahatta/crawler/nepalstock/" (22855 28715 0 0) "Makefile" "listed.py" "home.py" "depth.py" "__init__.py" "../" "./")
+
+ ("/Users/manishmarahatta/crawler/.git/" (22849 62293 0 0) "refs/" "ORIG_HEAD" "objects/" "logs/" "info/" "index" "hooks/" "HEAD" "gitk.cache" "FETCH_HEAD" "description" "config" "COMMIT_EDITMSG" "../" "./")
+
+ ("/Users/manishmarahatta/tf_hg/" (22765 40333 0 0) "tensorflowvisu_digits.py" "tensorflowvisu.py" "tensorflowvisu.mplstyle" "README.md" "mnist_TF_layers.py" "mnist_4.2_batchnorm_convolutional.py" "mnist_4.1_batchnorm_five_layers_relu.py" "mnist_4.0_batchnorm_five_layers_sigmoid.py" "mnist_3.1_convolutional_bigger_dropout.py" "mnist_3.0_convolutional.py" "mnist_2.2_five_layers_relu_lrdecay_dropout.py" "mnist_2.1_five_layers_relu_lrdecay.py" "mnist_2.0_five_layers_sigmoid.py" "mnist_1.0_softmax.py" "mlengine/" "LICENSE" "INSTALL.txt" "data/" "CONTRIBUTING.md" "checkpoints/" "__pycache__/" ".idea/" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/manishmarahatta/Downloads/" (22851 38336 0 0) "Unknown-4" "Unknown-3" "Unknown-2" "Unknown" "SSRN-id2609814.pdf" "Sprint__How_to_Solve_Big_Problem__and_Te_t_-_Jake_Knapp.epub" "sequence.png" "search.html" "Screenshot_2016-09-28_20-27-55.png" "Resume.pdf" "python3.odp" "Python-Logo-PNG-Image.png" "Py3kEuro08.ppt" "project3.pdf" "Project01.tar" "onlisp.pdf" "novus-nvd3-6bfd678/" "MyContact/" "Losing-My-Virginity-How-I-Survived-Richard-Branson.pdf" "Learn Python The Hard Way, 3rd Edition .pdf" "IT Time Table - Yr2 LMU.pdf" "IMG_20170213_235740.jpg" "IMG_20160801_191354.jpg" "IcoMoon-Free-master.zip.download/" "HACKS FROM STUPID HACKATHON SWEDEN 2017.pdf" "Hacking Fiber optics easier than copper cable-Paper Presentation.pdf" "favicon.ico" "Failedstartups_ebook.pdf" "Example.odt" "emacs.pdf" "Emacs-Beginner-HOWTO.pdf" "Emacs-25.2-universal.dmg" "DIY Deep Learning for Vision_  a Hands-On Tutorial with Caffe.pdf" "Demo.tar" "dd.jpg" "DCTusvjUMAABswX.jpg" "DBZVdZSXgAEmDPa.jpg-large.jpeg" "DBeHUYcVYAAVe_n.jpg-large.jpeg" "coursework.jpg" "course" "class.png" "Clarity-Advice-Guide-Mar-2013-Edition.pdf" "calc.py" "calc" "C6D71DNU4AAYrtt.jpg-large.jpeg" "Ashlee Vance - Elon Musk; Tesla, SpaceX, and the Quest for a Fantastic Future - Rocky_45 [CPUL].epub" "angularflask/" "AI_Projects.pdf" "A Gift of Fire- Social, Legal, and Ethical Issues for Computing Technology.pdf" "9b7.png" "279days.pdf" "19145866_1718822281464476_2321824089255848351_n.jpg" "18920566_817326885089854_5779612661712632592_n.jpg" "18699340_1513977712008689_844976205384352109_o.jpg" "18581556_1032195170246967_7014563964151622077_n.jpg" "18119528_1849148005351940_2432721598111392202_n.jpg" "18119091_1901101706794609_6107284316560262811_n.jpg" "15253368_1617359495233169_3627826430235818072_n.jpg" "12.tar" "12/" "11.jpg" "1024px-Guido_van_Rossum_OSCON_2006.jpg" "1.JPG" ".localized" ".DS_Store" "../" "./")
+
+ ("/Users/manishmarahatta/manishmarahatta.com.np/content/" (22851 19533 0 0) "project/" "presentation/" "post/" ".DS_Store" "../" "./")
+
+ ("/Users/manishmarahatta/manishmarahatta.com.np/content/post/" (22851 19906 0 0) "swashank-redemption-analysis.md" "sfd-foss-nepal.md" "importance-of-backend-web-development.md" "emacs-ing.md" "ecommerce-nepal-bad-idea.md" ".DS_Store" "../" "./")
+
+ ("/Users/manishmarahatta/manishmarahatta.com.np/content/μBlog/" (22846 5951 0 0) "2017-06-12-1000.org" "../" "./")
+
+ ("/Users/manishmarahatta/manishmarahatta.com.np/content/emacs/" (22851 16451 0 0) "emacs-ing.md" "../" "./")
+
+ ("/Users/manishmarahatta/urlwatch/" (22847 42318 0 0) "venv/" "urlwatch" "test/" "share/" "setup.py" "setup.cfg" "README.md" "MANIFEST.in" "lib/" "dist/" "COPYING" "ChangeLog" "build/" ".travis.yml" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/manishmarahatta/.urlwatch/" (22847 43061 0 0) "urlwatch.yaml" "urls.yaml" "cache.db" "../" "./")
+
+ ("/Users/manishmarahatta/echo-rush/py/modules/" (22847 26024 0 0) "turtle/" "tkinter/" "README.org" "ProjectList.org" "game/" ".DS_Store" "../" "./")
+
+ ("/Users/manishmarahatta/echo-rush/py/modules/game/" (22847 25477 0 0) "settings.py" "main.py" "../" "./")
 
  ("/Users/manishmarahatta/echo-rush/py/modules/turtle/" (22845 1719 0 0) "wall.txt" "wall.py" "stars.py" "spiral_func.py" "spiral.py" "question" "projectile.py" "Makefile" "game.py" "event_control_oop.py" "event_control_inheritance.py" "event_control_composition.py" "event_control.py" "colorpicker_rgb.py" "colorpicker_grayscale.py" "colorpicker.py" "batman.py" "_02_.py" "_01_.py" "../" "./")
 
@@ -57,17 +113,9 @@
 
  ("/Users/manishmarahatta/manishmarahatta.com.np/static/" (22773 51838 0 0) "static/" "media/" "favicon.ico" "apple-touch-icon.png" ".DS_Store" "../" "./")
 
- ("/Users/manishmarahatta/manishmarahatta.com.np/content/" (22846 5951 0 0) "μBlog/" "project/" "presentation/" "post/" "emacs/" ".DS_Store" "../" "./")
-
- ("/Users/manishmarahatta/" (22846 5440 0 0) "tf_hg/" "Tensorflow-for-stock-prediction/" "StockPricePrediction/" "stock_module/" "stock-market-prediction-using-deep-learning/" "PycharmProjects/" "py-exec/" "Public/" "predictiondata.csv" "predicting_stock_prices/" "pot1.py" "pot.py" "Pictures/" "package-lock.json" "paasai/" "node_modules/" "neural-network-stock-predictor/" "nepal-budget-2074/" "Music/" "Movies/" "mm.py" "manishmarahatta.com.np/" "m.py" "login_alert.sh" "Library/" "en-tlrate-ne/" "echo-rush/" "dual_moving_average.py" "Downloads/" "dot-emacs/" "Documents/" "Desktop/" "crawler/" "__pycache__/" ".zipline/" ".weechat/" ".viminfo" ".travis/" ".Trash/" ".subversion/" ".ssh/" ".sqlite_history" ".rbenv/" ".python_history" ".plotly/" ".oracle_jre_usage/" ".npm/" ".node-gyp/" ".netrc" ".matplotlib/" ".local/" ".keras/" ".jupyter/" ".ipython/" ".idlerc/" ".gradle/" ".gitmodules" ".gitkraken/" ".gitconfig" ".gem/" ".emulator_console_auth_token" ".emacs.d/" ".elfeed/" ".DS_Store" ".config/" ".CFUserTextEncoding" ".cache/" ".bundle/" ".bash_sessions/" ".bash_profile.pysave" ".bash_profile" ".bash_history" ".atom/" ".android/" "../" "./")
-
  ("/Users/manishmarahatta/manishmarahatta.com.np/" (22846 4190 0 0) "static/" "README.org" "public/" "layouts/" "content/" "config.toml" "CNAME" "archetypes/" "_scripts/" ".gitignore" ".git/" ".DS_Store" "../" "./")
 
  ("/Users/manishmarahatta/.emacs.d/el-get/" (22846 3015 0 0) "yasnippet/" "with-editor/" "websocket/" "web-mode/" "undo-tree/" "test/" "tabbar/" "smooth-scroll/" "smex/" "seq/" "s/" "request/" "recipes/" "recentf-ext/" "README.md" "rainbow-delimiters/" "python-environment/" "python/" "pylookup/" "powerline/" "pos-tip/" "popup-kill-ring/" "popup/" "pkg-info/" "package/" "outshine/" "outorg/" "neotree/" "multiple-cursors/" "moz-repl/" "methods/" "markdown-mode/" "magit/" "logo/" "json-snatcher/" "json-reformat/" "json-mode/" "jedi/" "ht/" "highline/" "highlight-symbol/" "goto-chg/" "git-modes/" "fuzzy/" "flymake-cursor/" "flymake/" "fill-column-indicator/" "f/" "exec-path-from-shell/" "epl/" "epc/" "emojify/" "emacs-async/" "el-get.texi" "el-get.info" "el-get.el" "el-get-status.el" "el-get-recipes.el" "el-get-notify.el" "el-get-methods.el" "el-get-list-packages.el" "el-get-install.el" "el-get-dependencies.el" "el-get-custom.el" "el-get-core.el" "el-get-check.el" "el-get-byte-compile.el" "el-get-bundle.el" "el-get-build.el" "el-get-autoloading.el" "el-get/" "ein/" "dockerfile-mode/" "deferred/" "dash/" "ctable/" "cleanup-whitespace.sh" "cl-lib/" "auto-complete/" "anzu/" "ample-regexps/" ".travis.yml" ".status.el" ".loaddefs.elc" ".loaddefs.el" ".dir-locals.el" "../" "./")
-
- ("/Users/manishmarahatta/crawler/" (22846 1290 0 0) "site_scrapper.py" "scrape_module3.py" "scrape_module2.py" "scrape_module1.py" "Makefile" "crawler_ss.py" "config.conf" ".git/" ".DS_Store" "../" "./")
-
- ("/Users/manishmarahatta/Downloads/" (22845 5561 0 0) "Unknown" "SSRN-id2609814.pdf" "Sprint__How_to_Solve_Big_Problem__and_Te_t_-_Jake_Knapp.epub" "sequence.png" "search.html" "Screenshot_2016-09-28_20-27-55.png" "Resume.pdf" "python3.odp" "Python-Logo-PNG-Image.png" "Py3kEuro08.ppt" "project3.pdf" "Project01.tar" "onlisp.pdf" "novus-nvd3-6bfd678/" "MyContact/" "Losing-My-Virginity-How-I-Survived-Richard-Branson.pdf" "Learn Python The Hard Way, 3rd Edition .pdf" "IT Time Table - Yr2 LMU.pdf" "IMG_20170213_235740.jpg" "IMG_20160801_191354.jpg" "HACKS FROM STUPID HACKATHON SWEDEN 2017.pdf" "Hacking Fiber optics easier than copper cable-Paper Presentation.pdf" "favicon.ico" "Failedstartups_ebook.pdf" "Example.odt" "emacs.pdf" "Emacs-Beginner-HOWTO.pdf" "Emacs-25.2-universal.dmg" "DIY Deep Learning for Vision_  a Hands-On Tutorial with Caffe.pdf" "Demo.tar" "dd.jpg" "DBZVdZSXgAEmDPa.jpg-large.jpeg" "DBeHUYcVYAAVe_n.jpg-large.jpeg" "coursework.jpg" "course" "class.png" "Clarity-Advice-Guide-Mar-2013-Edition.pdf" "calc.py" "calc" "C6D71DNU4AAYrtt.jpg-large.jpeg" "Ashlee Vance - Elon Musk; Tesla, SpaceX, and the Quest for a Fantastic Future - Rocky_45 [CPUL].epub" "angularflask/" "AI_Projects.pdf" "A Gift of Fire- Social, Legal, and Ethical Issues for Computing Technology.pdf" "9b7.png" "279days.pdf" "18920566_817326885089854_5779612661712632592_n.jpg" "18699340_1513977712008689_844976205384352109_o.jpg" "18581556_1032195170246967_7014563964151622077_n.jpg" "18119528_1849148005351940_2432721598111392202_n.jpg" "18119091_1901101706794609_6107284316560262811_n.jpg" "15253368_1617359495233169_3627826430235818072_n.jpg" "1024px-Guido_van_Rossum_OSCON_2006.jpg" "1.JPG" ".localized" ".DS_Store" "../" "./")
 
  ("/Users/Shared/" (22649 37838 0 0) "SC Info/" "adi/" ".localized" "../" "./")
 
@@ -84,8 +132,6 @@
  ("/Users/manishmarahatta/echo-rush/py/class_notes/" (22842 1628 0 0) "Week02/" "Week01/" "README.org" "../" "./")
 
  ("/Users/manishmarahatta/echo-rush/py/workout/intro/" (22827 32834 0 0) "03_sum_fatorial.py" "02_comp_power.py" "01_four_fours.py" "../" "./")
-
- ("/Users/manishmarahatta/echo-rush/py/modules/" (22838 15393 0 0) "turtle/" "tkinter/" "README.org" ".DS_Store" "../" "./")
 
  ("/Users/manishmarahatta/echo-rush/py/workout/" (22827 32834 0 0) "intro/" "../" "./")
 

@@ -1,4 +1,6 @@
 
+(setq gc-cons-threshold 104857600)
+
 (require 'server)
 (unless (server-running-p)
   (server-start))
@@ -92,10 +94,10 @@
 
 ;;; https://github.com/manishmarahatta/powerline-iconic-theme
 ;; (add-to-list 'load-path "~/.emacs.d/modules/powerline-iconic-theme/")
-(load-file "~/.emacs.d/modules/powerline-iconic-theme/iconic.el")
-(powerline-iconic-theme)
+;;(load-file "~/.emacs.d/modules/powerline-iconic-theme/iconic.el")
+;;(powerline-iconic-theme)
 ;;; DID YOU GOT STUCK ABOVE? COMMENT 2 LINES ABOVE & UNCOMMENT NEXT LINE
-;; (powerline-default-theme)
+(powerline-default-theme)
 
 ;;; modeline from spacmacs
 ;;; https://github.com/TheBB/spaceline
@@ -156,10 +158,16 @@
       ido-handle-duplicate-virtual-buffers 2
       ido-max-prospects 10)
 
-(el-get 'sync 'smex)
-(require 'smex)
-(smex-initialize)
-(global-set-key (kbd "M-x") 'smex)
+;; (el-get 'sync 'smex)
+;; (require 'smex)
+;; (smex-initialize)
+;; (global-set-key (kbd "M-x") 'smex)
+
+(el-get 'sync 'helm)
+ (require 'helm)
+ (global-set-key (kbd "M-x") 'helm-M-x)
+ (global-set-key (kbd "C-x C-f") 'helm-find-files)
+ (helm-mode 1)
 
 (el-get 'sync 'anzu)
 (require 'anzu)
@@ -290,6 +298,8 @@
 (load "~/.emacs.d/modules/py-exec/py-exec.el")
 
 (setq lua-indent-level 4)
+
+(setq default-tab-width 4)
 
 ;;  (load "~/.emacs.d/config/html.cfg.el")
 

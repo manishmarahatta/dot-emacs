@@ -20,6 +20,10 @@
 ;; just comment it out by adding a semicolon to the start of the line.
 ;; You may delete these explanatory comments.
 (package-initialize)
+(setq-default initial-scratch-message
+              (concat ";; Happy hacking, " user-login-name " - Emacs ♥ you!\n\n"))
+(setq ring-bell-function 'ignore)
+
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
@@ -66,6 +70,7 @@
  '(font-lock-variable-name-face ((t (:foreground "sandy brown"))))
  '(font-lock-warning-face ((t (:background "yellow1" :foreground "red1" :weight bold))))
  '(linum ((t (:inherit (shadow default) :height 108))))
+ (set-face-attribute 'default nil :height 165)
  '(markdown-header-delimiter-face ((t (:inherit font-lock-function-name-face :weight bold))) t)
  '(markdown-header-face-1 ((t (:height 1.8))) t)
  '(markdown-header-face-2 ((t (:height 1.6))) t)
