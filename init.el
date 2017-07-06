@@ -24,6 +24,7 @@
               (concat ";; Happy hacking, " user-login-name " - Emacs ♥ you!\n\n"))
 (setq ring-bell-function 'ignore)
 (set-face-attribute 'default nil :height 165)
+(display-time-mode 1)
 
 
 (custom-set-variables
@@ -51,7 +52,7 @@
  '(org-fontify-whole-heading-line t)
  '(package-selected-packages
    (quote
-    (hideshowvis fullscreen-mode fullframe octicons google-this helm wget twittering-mode)))
+    (sos emacs-xkcd hideshowvis fullscreen-mode fullframe octicons google-this helm wget twittering-mode)))
  '(python-shell-completion-native-enable nil)
  '(safe-local-variable-values
    (quote
