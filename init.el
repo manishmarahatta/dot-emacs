@@ -52,7 +52,7 @@
  '(org-fontify-whole-heading-line t)
  '(package-selected-packages
    (quote
-    (sos emacs-xkcd hideshowvis fullscreen-mode fullframe octicons google-this helm wget twittering-mode)))
+    (ac-helm org-bullets wakatime-mode ace-window stock-ticker kotlin-mode 0blayout emacs-xkcd hideshowvis fullscreen-mode octicons google-this helm wget twittering-mode)))
  '(python-shell-completion-native-enable nil)
  '(safe-local-variable-values
    (quote

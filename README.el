@@ -11,6 +11,8 @@
 (set-keyboard-coding-system 'utf-8)
 (set-selection-coding-system 'utf-8)
 (prefer-coding-system 'utf-8)
+(when (display-graphic-p)
+   (setq x-select-request-type '(UTF8_STRING COMPOUND_TEXT TEXT STRING)))
 
 (setq backup-directory-alist (quote ((".*" . "~/.cache/emacs_backup/"))))
 (setq make-backup-files nil)
@@ -33,7 +35,7 @@
           json-reformat json-snatcher magit moz-repl multiple-cursors
           pkg-info popup popup-kill-ring pos-tip pylookup python
           python-environment recentf-ext request s undo-tree
-          web-mode websocket yasnippet outorg outshine package)
+          web-mode websocket yasnippet ac-helm outorg outshine package)
         (mapcar 'el-get-as-symbol (mapcar 'el-get-source-name
         el-get-sources))))
 (el-get 'sync dim-packages)
@@ -428,3 +430,9 @@
 
 ;; (setq xle-buffer-process-coding-system 'utf-8)
 ;; (load-library "/opt/xle/emacs/lfg-mode")
+
+;;(global-wakatime-mode)
+
+(require 'ac-helm)  ;; Not necessary if using ELPA package
+(global-set-key (kbd "C-:") 'ac-complete-with-helm)
+(define-key ac-complete-mode-map (kbd "C-:") 'ac-complete-with-helm)
