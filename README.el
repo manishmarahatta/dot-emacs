@@ -455,5 +455,5 @@
   (exec-path-from-shell-initialize)
   (exec-path-from-shell-copy-env "GOPATH"))
 
-(add-to-list 'load-path "~/.emacs.d/modules/stock-ticker.el")
-(require 'stock-ticker)
+;;(add-to-list 'load-path "~/.emacs.d/modules/stock-ticker.el")
+;;(require 'stock-ticker)
