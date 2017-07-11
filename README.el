@@ -32,13 +32,13 @@
           '(ample-regexps auto-complete cl-lib ctable dash
           deferred ein epc epl exec-path-from-shell f flymake
           flymake-cursor fuzzy git-modes goto-chg jedi json-mode
-          json-reformat json-snatcher magit go-eldoc go-autocomplete moz-repl multiple-cursors
-          pkg-info popup popup-kill-ring pos-tip pylookup python
-          python-environment recentf-ext request s undo-tree
-          web-mode websocket go-mode yasnippet ac-helm outorg outshine package)
-        (mapcar 'el-get-as-symbol (mapcar 'el-get-source-name
-        el-get-sources))))
-(el-get 'sync dim-packages)
+                      json-reformat json-snatcher magit go-eldoc go-autocomplete moz-repl multiple-cursors
+                      pkg-info popup popup-kill-ring pos-tip pylookup python
+                      python-environment recentf-ext request s undo-tree
+                      web-mode websocket go-mode yasnippet ac-helm outorg outshine package)
+                    (mapcar 'el-get-as-symbol (mapcar 'el-get-source-name
+                    el-get-sources))))
+    (el-get 'sync dim-packages)
 
 (load "~/.emacs.d/config/ui.cfg.el")
 
@@ -49,10 +49,10 @@
 (require 'fill-column-indicator)
 (global-set-key [M-f4] 'save-buffers-kill-terminal)
 (global-set-key [(control f5)] '(lambda() (interactive)
-                                (load-file "~/.emacs.d/init.el")))
+                                                                (load-file "~/.emacs.d/init.el")))
 (global-set-key [f6] '(lambda() (interactive)
-                      (toggle-truncate-lines)
-                      (fci-mode)))
+                                          (toggle-truncate-lines)
+                                          (fci-mode)))
 (global-set-key [f9] 'speedbar)
 
 (global-unset-key [(shift down-mouse-1)])
@@ -103,7 +103,7 @@
 
 ;;; modeline from spacmacs
 ;;; https://github.com/TheBB/spaceline
-;; (add-to-list 'load-path  "~/.emacs.d/modules/spaceline/")
+;; (add-to-list 'load-path      "~/.emacs.d/modules/spaceline/")
 ;; (require 'spaceline-config)
 ;; (spaceline-spacemacs-theme)
 
@@ -151,14 +151,14 @@
 (ido-mode t)
 ;;(ido-ubiquitous t)
 (setq ido-enable-prefix nil
-      ido-enable-flex-matching t ;; enable fuzzy matching
-      ido-auto-merge-work-directories-length nil
-      ido-create-new-buffer 'always
-      ido-use-filename-at-point 'guess
-      ;; ido-default-file-method 'select-window
-      ido-use-virtual-buffers t
-      ido-handle-duplicate-virtual-buffers 2
-      ido-max-prospects 10)
+          ido-enable-flex-matching t ;; enable fuzzy matching
+          ido-auto-merge-work-directories-length nil
+          ido-create-new-buffer 'always
+          ido-use-filename-at-point 'guess
+          ;; ido-default-file-method 'select-window
+          ido-use-virtual-buffers t
+          ido-handle-duplicate-virtual-buffers 2
+          ido-max-prospects 10)
 
 ;; (el-get 'sync 'smex)
 ;; (require 'smex)
@@ -211,8 +211,8 @@
 (defun watch-words ()
   (interactive)
   (font-lock-add-keywords
-   nil '(("\\<\\(FIX ?-?\\(ME\\)?\\|TODO\\|BUGS?\\|TIPS?\\|TESTING\\|WARN\\(ING\\)?S?\\|WISH\\|IMP\\|NOTE\\)"
-          1 font-lock-warning-face t))))
+       nil '(("\\<\\(FIX ?-?\\(ME\\)?\\|TODO\\|BUGS?\\|TIPS?\\|TESTING\\|WARN\\(ING\\)?S?\\|WISH\\|IMP\\|NOTE\\)"
+                  1 font-lock-warning-face t))))
 
 (add-hook 'prog-mode-hook 'watch-words)
 
@@ -224,11 +224,11 @@
 
 (global-unset-key (kbd "<C-down-mouse-1>"))
 (global-set-key (kbd "<C-down-mouse-1>")
-           (lambda (event)
-             (interactive "e")
-             (save-excursion
-               (goto-char (posn-point (event-start event)))
-               (highlight-symbol-at-point))))
+                       (lambda (event)
+                         (interactive "e")
+                         (save-excursion
+                               (goto-char (posn-point (event-start event)))
+                               (highlight-symbol-at-point))))
 
 (defun nuke_traling ()
   (add-hook 'write-file-hooks 'delete-trailing-whitespace)
@@ -244,10 +244,10 @@
 (el-get 'sync 'fill-column-indicator)
 (require 'fill-column-indicator)
 (defun my-compilation-mode-hook ()
-  (setq truncate-lines nil) ;; automatically becomes buffer local
-  (set (make-local-variable 'truncate-partial-width-windows) nil)
-  (toggle-truncate-lines)
-  (fci-mode))
+      (setq truncate-lines nil) ;; automatically becomes buffer local
+      (set (make-local-variable 'truncate-partial-width-windows) nil)
+      (toggle-truncate-lines)
+      (fci-mode))
 (add-hook 'compilation-mode-hook 'my-compilation-mode-hook)
 
 (global-set-key (kbd "C-<f8>") 'save-and-compile-again)
@@ -258,9 +258,9 @@
 (add-hook 'prog-mode-hook 'rainbow-delimiters-mode)
 
 (add-hook 'c-mode-common-hook
-          (lambda ()
-            (when (derived-mode-p 'c-mode 'c++-mode 'java-mode)
-              (ggtags-mode 1))))
+                  (lambda ()
+                        (when (derived-mode-p 'c-mode 'c++-mode 'java-mode)
+                          (ggtags-mode 1))))
 
 (add-hook 'python-mode-hook 'ggtags-mode)
 
@@ -323,18 +323,18 @@
   (define-key xwidget-webkit-mode-map (kbd "C-c") 'xwidget-webkit-copy-selection-as-kill)))
 
 (add-hook 'window-configuration-change-hook (lambda ()
-               (when (equal major-mode 'xwidget-webkit-mode)
-                 (xwidget-webkit-adjust-size-dispatch))))
+                               (when (equal major-mode 'xwidget-webkit-mode)
+                                 (xwidget-webkit-adjust-size-dispatch))))
 
 (defun xwidget-browse-url-no-reuse (url &optional sessoin)
   (interactive (progn
-                 (require 'browse-url)
-                 (browse-url-interactive-arg "xwidget-webkit URL: ")))
+                                 (require 'browse-url)
+                                 (browse-url-interactive-arg "xwidget-webkit URL: ")))
   (xwidget-webkit-browse-url url t))
 
 ;; (setq browse-url-browser-function (lambda (url session)
-;;                    (other-window 1)
-;;                    (xwidget-browse-url-no-reuse url)))
+;;                                        (other-window 1)
+;;                                        (xwidget-browse-url-no-reuse url)))
 
 (load "~/.emacs.d/config/org-mode.cfg.el")
 (load "~/.emacs.d/config/babel.cfg.el")
@@ -346,14 +346,14 @@
 (require 'outshine)
 (add-hook 'outline-minor-mode-hook 'outshine-hook-function)
 ;; (add-hook 'outline-minor-mode-hook
-;;          '(lambda ()
-;;             (define-key org-mode-map (kbd "C-j") nil)))
+;;              '(lambda ()
+;;                     (define-key org-mode-map (kbd "C-j") nil)))
 
 (el-get 'sync 'dockerfile-mode)
 (add-to-list 'auto-mode-alist '("Dockerfile" . dockerfile-mode))
 
 (setq auto-mode-alist
-   (cons '("\.json$" . json-mode) auto-mode-alist))
+       (cons '("\.json$" . json-mode) auto-mode-alist))
 
 (el-get 'sync 'markdown-mode)
 ;; disable because markdown creating problem to dockerfile-mode
@@ -389,8 +389,8 @@
 (add-hook 'git-commit-mode-hook 'ac-emoji-setup)
 
 (set-fontset-font
-   t 'symbol
-     (font-spec :family "Symbola") nil 'prepend)
+       t 'symbol
+         (font-spec :family "Symbola") nil 'prepend)
 
 (add-to-list 'load-path "~/.emacs.d/modules/window-numbering/")
 (require 'window-numbering)
@@ -418,8 +418,8 @@
   (add-to-list 'load-path "~/.emacs.d/modules/auto-dim-other-buffers.el")
   (require 'auto-dim-other-buffers)
   (add-hook 'after-init-hook (lambda ()
-                               (when (fboundp 'auto-dim-other-buffers-mode)
-                                 (auto-dim-other-buffers-mode t)))))
+                                                               (when (fboundp 'auto-dim-other-buffers-mode)
+                                                                 (auto-dim-other-buffers-mode t)))))
 
 (add-to-list 'load-path "~/.emacs.d/modules/colors")
 ;;; DID YOU GOT STUCK ABOVE? COMMENT LINE ABOVE
