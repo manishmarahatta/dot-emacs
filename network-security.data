@@ -1,4 +1,5 @@
 (
+ (:id "sha1:4fb4a286e3aa473246ce0c62c400926f660802d7" :fingerprint "sha1:c9:4f:05:0e:50:48:da:fd:71:ee:ca:36:bf:ab:10:0a:52:70:16:99" :host "raw.github.com:443" :conditions (:insecure :unknown-ca :invalid))
  (:id "sha1:1da71d9b31f5cb2907f07a7b3953f2f2a5dde0e3" :fingerprint "sha1:ce:36:cc:c8:f1:9e:c8:b7:58:63:3a:cb:ab:7f:e3:d8:12:3a:5f:a5" :host "hacker-news.firebaseio.com:443" :conditions (:insecure :unknown-ca :invalid))
  (:id "sha1:4c4bbf68801de341a54ea4c98e58c08e6d81bd51" :fingerprint "sha1:e6:1c:15:56:06:a6:d3:f4:58:eb:37:5c:81:a0:40:98:68:4b:37:b4" :host "duckduckgo.com:443" :conditions (:insecure :unknown-ca :invalid))
  (:id "sha1:6d4eb958390599243ba9f5035cb671fa8dd6a93a" :fingerprint "sha1:71:97:cd:a2:46:81:11:72:ad:47:e9:59:c6:bf:1c:48:94:a7:6a:eb" :host "elpa.gnu.org:443" :conditions (:insecure :unknown-ca :invalid))

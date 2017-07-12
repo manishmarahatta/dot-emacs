@@ -176,7 +176,6 @@ Then type
      ;; (recentf-mode nil)
    #+end_src
 * el-get
-
   [[https://github.com/dimitri/el-get][el-get]] is the package manager, which is similar to *apt-get*.
 
   #+begin_src emacs-lisp
