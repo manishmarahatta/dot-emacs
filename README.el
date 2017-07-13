@@ -96,10 +96,10 @@
 
 ;;; https://github.com/manishmarahatta/powerline-iconic-theme
 ;; (add-to-list 'load-path "~/.emacs.d/modules/powerline-iconic-theme/")
-;;(load-file "~/.emacs.d/modules/powerline-iconic-theme/iconic.el")
-;;(powerline-iconic-theme)
+(load-file "~/.emacs.d/modules/powerline-iconic-theme/iconic.el")
+(powerline-iconic-theme)
 ;;; DID YOU GOT STUCK ABOVE? COMMENT 2 LINES ABOVE & UNCOMMENT NEXT LINE
-(powerline-default-theme)
+;;(powerline-default-theme)
 
 ;;; modeline from spacmacs
 ;;; https://github.com/TheBB/spaceline
