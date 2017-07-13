@@ -614,7 +614,6 @@ People have emotions and so do *emacs* 😂.
 	 (define-key c-mode-base-map (kbd "RET") 'newline-and-indent)
    #+end_src
 ** python
-
    Welcome to flying circus :circus_tent:.
 
    #+begin_src emacs-lisp
@@ -899,17 +898,16 @@ People have emotions and so do *emacs* 😂.
 	 (add-hook 'prog-mode-hook 'highlight-indentation-current-column-mode)
    #+end_src
 ** hideshowvis mode
-
    http://www.emacswiki.org/emacs/download/hideshowvis.el
 
   #+begin_src emacs-lisp
-	 (autoload 'hideshowvis-enable "hideshowvis")
-	 (autoload 'hideshowvis-minor-mode
-	   "hideshowvis"
-	   "Will indicate regions foldable with hideshow in the fringe."
-	   'interactive)
+;; (autoload 'hideshowvis-enable "hideshowvis")
+;; (autoload 'hideshowvis-minor-mode
+;;  "hideshowvis"
+;;  "Will indicate regions foldable with hideshow in the fringe."
+;;  'interactive)
 
-	 (add-hook 'python-mode-hook 'hideshowvis-enable)
+;; (add-hook 'python-mode-hook 'hideshowvis-enable)
    #+end_src
 ** auto-dim-buffer
 

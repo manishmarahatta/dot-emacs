@@ -406,13 +406,13 @@
 (add-hook 'prog-mode-hook 'highlight-indentation-mode)
 (add-hook 'prog-mode-hook 'highlight-indentation-current-column-mode)
 
-(autoload 'hideshowvis-enable "hideshowvis")
-(autoload 'hideshowvis-minor-mode
-  "hideshowvis"
-  "Will indicate regions foldable with hideshow in the fringe."
-  'interactive)
+;; (autoload 'hideshowvis-enable "hideshowvis")
+;; (autoload 'hideshowvis-minor-mode
+;;  "hideshowvis"
+;;  "Will indicate regions foldable with hideshow in the fringe."
+;;  'interactive)
 
-(add-hook 'python-mode-hook 'hideshowvis-enable)
+;; (add-hook 'python-mode-hook 'hideshowvis-enable)
 
 (when window-system
   (add-to-list 'load-path "~/.emacs.d/modules/auto-dim-other-buffers.el")
