@@ -14,7 +14,7 @@
 ;; (require 'tabbar-ruler)
 
 ;; (setq tabbar-separator-value 0)
-;; (setq tabbar-ruler-fancy-current-tab-separator 'wave)
+;;(setq tabbar-ruler-fancy-current-tab-separator 'wave)
 ;; (setq tabbar-ruler-fancy-tab-separator 'nil)
 ;; (setq tabbar-ruler-fancy-hover-tab-separator 'rounded)
 
