@@ -457,3 +457,7 @@
 
 ;;(add-to-list 'load-path "~/.emacs.d/modules/stock-ticker.el")
 ;;(require 'stock-ticker)
+
+(add-to-list 'load-path "~/.emacs.d/modules/sky-color-clock.el")
+(require 'sky-color-clock)
+(sky-color-clock-initialize 35) ; Kathmandu, Nepal
