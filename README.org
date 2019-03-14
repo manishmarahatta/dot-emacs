@@ -31,7 +31,7 @@ this  :fire: :bangbang:
 #+END_SRC
 
    Run and let the magic happen
-** [[https://github.com/manishmarahatta/dot-emacs/blob/master/script.sh][Script]] to automatically build emacs config
+** [[https://github.com/manishmarahatta/dot-emacs/blob/master/script.sh][Script]] to automatically build emacs config(copy/paste and run the script)
 #+BEGIN_SRC bash
 
 #!/bin/sh
@@ -63,8 +63,10 @@ fi
 
 git clone https://github.com/manishmarahatta/dot-emacs.git ~/.emacs.d/
 cd ~/.emacs.d
+chmod +x configure
 ./configure
 cd ~
+emacs
 #+END_SRC
 save the above file as autoconfig.sh
 #+BEGIN_SRC bash
