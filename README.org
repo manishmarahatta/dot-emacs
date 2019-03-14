@@ -32,7 +32,7 @@ this  :fire: :bangbang:
 
    Run and let the magic happen
 
-OR,
+*OR*
 
 ** [[https://github.com/manishmarahatta/dot-emacs/blob/master/script.sh][Script]] to automatically build emacs config(copy/paste and run the script)
 #+BEGIN_SRC bash
