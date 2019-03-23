@@ -634,14 +634,6 @@ People have emotions and so do *emacs* 😂.
 	 (setq jedi:complete-on-dot t) ; optional
 	 ;; (setq jedi:setup-keys t) ; optional
    #+end_src
-I resolved my issue by running:
-
-#+BEGIN_SRC bash
-
-rm -r ~/.emacs.d/.python-environments/default
-virtualenv -p python2 ~/.emacs.d/.python-environments/default
-M-x jedi:install-server
-#+end_src
 *** python-info-look
 
 	shortcut "[C-h S]"
