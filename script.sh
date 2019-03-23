@@ -27,6 +27,7 @@ fi
 
 git clone https://github.com/manishmarahatta/dot-emacs.git ~/.emacs.d/
 cd ~/.emacs.d
+chmod +x configure
 ./configure
 cd ~
 emacs
