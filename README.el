@@ -32,10 +32,10 @@
           '(ample-regexps auto-complete cl-lib ctable dash
           deferred ein epc epl exec-path-from-shell f flymake
           flymake-cursor fuzzy git-modes goto-chg jedi json-mode
-                      json-reformat json-snatcher magit go-eldoc go-autocomplete moz-repl multiple-cursors
+                      json-reformat json-snatcher magit go-eldoc go-autocomplete multiple-cursors
                       pkg-info popup popup-kill-ring pos-tip pylookup python
                       python-environment recentf-ext request s undo-tree
-                      web-mode websocket go-mode yasnippet ac-helm outorg outshine package)
+                      web-mode websocket go-mode yasnippet ac-helm outorg package)
                     (mapcar 'el-get-as-symbol (mapcar 'el-get-source-name
                     el-get-sources))))
     (el-get 'sync dim-packages)
@@ -342,12 +342,6 @@
 (require 'outline)
 (add-hook 'prog-mode-hook 'outline-minor-mode)
 (add-hook 'compilation-mode-hook 'outline-minor-mode)
-
-(require 'outshine)
-(add-hook 'outline-minor-mode-hook 'outshine-hook-function)
-;; (add-hook 'outline-minor-mode-hook
-;;              '(lambda ()
-;;                     (define-key org-mode-map (kbd "C-j") nil)))
 
 (el-get 'sync 'dockerfile-mode)
 (add-to-list 'auto-mode-alist '("Dockerfile" . dockerfile-mode))

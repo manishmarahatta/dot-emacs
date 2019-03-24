@@ -1,4 +1,5 @@
 (
+ (:id "sha1:379522f41fcdf5d279b33c30780e7512c9348430" :fingerprint "sha1:b5:fa:0c:f2:e6:98:dd:d6:2f:04:e4:40:4f:aa:11:80:17:04:f7:c8" :host "github.com:443" :conditions (:insecure :unknown-ca :invalid))
  (:id "sha1:85b31c268009209a8d3c5387033b219264f7e62b" :fingerprint "sha1:7a:b9:ee:dc:fc:f6:bc:9f:70:5f:99:36:e5:b4:3c:2b:e0:8e:0e:ec" :host "melpa.org:443" :conditions (:insecure :unknown-ca :invalid))
  (:id "sha1:4fb4a286e3aa473246ce0c62c400926f660802d7" :fingerprint "sha1:c9:4f:05:0e:50:48:da:fd:71:ee:ca:36:bf:ab:10:0a:52:70:16:99" :host "raw.github.com:443" :conditions (:insecure :unknown-ca :invalid))
  (:id "sha1:1da71d9b31f5cb2907f07a7b3953f2f2a5dde0e3" :fingerprint "sha1:ce:36:cc:c8:f1:9e:c8:b7:58:63:3a:cb:ab:7f:e3:d8:12:3a:5f:a5" :host "hacker-news.firebaseio.com:443" :conditions (:insecure :unknown-ca :invalid))
@@ -8,5 +9,4 @@
  (:id "sha1:8c107fc2020fe317e2b05e1377eb61aa8d1a85b3" :fingerprint "sha1:f2:64:9e:90:a3:86:12:6a:6c:d6:40:06:d1:1e:16:b8:ad:41:11:0c" :host "xkcd.com:443" :conditions (:insecure :unknown-ca :invalid))
  (:id "sha1:85457c729378cc93c732b6a3941c8e4f9c2e60f3" :fingerprint "sha1:ab:a6:d7:6a:b3:d3:63:fa:19:0d:65:41:60:23:6e:ef:d3:2a:46:dc" :host "marmalade-repo.org:443" :conditions (:insecure :unknown-ca :invalid))
  (:id "sha1:5cce342a9a99ff6632dc081a41f5f4a28e8e10fc" :fingerprint "sha1:c9:4f:05:0e:50:48:da:fd:71:ee:ca:36:bf:ab:10:0a:52:70:16:99" :host "raw.githubusercontent.com:443" :conditions (:insecure :unknown-ca :invalid))
- (:id "sha1:379522f41fcdf5d279b33c30780e7512c9348430" :fingerprint "sha1:d4:ee:9d:2a:67:12:b3:61:4c:27:2d:15:8b:04:fc:c8:ca:08:a0:b6" :host "github.com:443" :conditions (:insecure :unknown-ca :invalid))
 )
